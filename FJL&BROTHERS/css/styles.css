@@ -128,6 +128,7 @@ button.navbar-toggle {
   width: 100%;
   height: 898px;
   margin-top: 1px;
+  position: relative;
 }
 
 .slide#slide1,
@@ -496,7 +497,7 @@ div#frase {
 
   .btn {
     font-size: 35px;
-    top: 32%;
+    top: 40%;
   }
 
   div#main-content.container-fluid {
@@ -611,7 +612,7 @@ div#frase {
 
   .btn {
     font-size: 30px;
-    top: 23%;
+    top: 40%;
   }
 
   div#main-content.container-fluid {
@@ -727,7 +728,7 @@ div#frase {
 
   .btn {
     font-size: 25px;
-    top: 22%;
+    top: 40%;
   }
 
   .slide>.lower-div>.botonSlides {
