@@ -53,80 +53,65 @@
       </div>
     </nav>
   </header>
-  <div class="slider-container">
-    <div class="slide" id="slide1">
-      <div class="upper-div" id="upper1">
-        <h2>Servicios</h2>
-        <p>Nuestros Servicios son bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-      </div>
-      <div class="lower-div" id="lower1">
-        <form action="servicios.html">
-          <button class="botonSlides" id="botonServicios" type="button">Nuestros Servicios</button>
-        </form>
-      </div>
-    </div>
-    <div class="slide" id="slide2">
-      <div class="upper-div" id="upper2">
-        <h2>Portafolio</h2>
-        <p>Nuestros Proyectos son bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-      </div>
-      <div class="lower-div" id="lower2">
-        <button class="botonSlides" id="botonProyectos" type="button">Nuestros Proyectos</button>
-      </div>
-    </div>
-    <div class="slide" id="slide3">
-      <div class="upper-div" id="upper3">
-        <h2>Contacto</h2>
-        <p>Nosotros somos bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla
-          bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla bla</p>
-      </div>
-      <div class="lower-div" id="lower3">
-        <button class="botonSlides" id="botonContacto" type="button">Contáctanos</button>
-      </div>
-    </div>
+  <div id="contact-container" class="hero-container">
+    <h2>Contacto</h2>
   </div>
-  <div id="main-content" class="container-fluid">
-    <div id="empresa-principal" class="row">
-      <div id="descripcion" class="col-md-4 col-sm-4 col-xs-12">
-        <h2>FJL & BROTHERS</h2>
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ipsum natus voluptate officiis
-          praesentium minima aperiam odit ullam amet dolore quibusdam soluta ducimus eum, beatae repellendus quo magni
-          dicta eos!</P>
-      </div>
-      <div id="vision" class="col-md-4 col-sm-4 col-xs-12">
-        <h2>Visión</h2>
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ipsum natus voluptate officiis
-          praesentium minima aperiam odit ullam amet dolore quibusdam soluta ducimus eum, beatae repellendus quo magni
-          dicta eos!</P>
-      </div>
-      <div id="mision" class="col-md-4 col-sm-4 col-xs-12">
-        <h2>Misión</h2>
-        <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus ipsum natus voluptate officiis
-          praesentium minima aperiam odit ullam amet dolore quibusdam soluta ducimus eum, beatae repellendus quo magni
-          dicta eos!</P>
-      </div>
-    </div>
-  </div><!-- frase -->
-  <div id="frase-celebre" class="parallax">
-    <div id="slogan" class="row">
-      <div id="frase" class="celebre">
-        <h3>Frase Celebre</h3>
-        <p>Subtitulo</p>
-      </div>
-    </div><!-- frase -->
-  </div>
+  <div class="form-container parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="well well-sm">
+            <form class="form-horizontal" method="post">
+              <fieldset>
+                <legend class="text-center header">Contáctanos</legend>
 
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="fname" name="name" type="text" placeholder="Primer Nombre" class="form-control">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="lname" name="name" type="text" placeholder="Apellido" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                  <div class="col-md-8">
+                    <input id="phone" name="phone" type="text" placeholder="Telefóno" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                  <div class="col-md-8">
+                    <textarea class="form-control" id="message" name="message" placeholder="Ingresa tu mensaje. Te contactaremos en 2 días"
+                      rows="7"></textarea>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <div class="col-md-12 text-center">
+                    <button type="submit" class="btn btn-primary btn-lg">Enviar</button>
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
   <footer class="panel-footer">
     <div class="container-fluid">
       <div class="row">

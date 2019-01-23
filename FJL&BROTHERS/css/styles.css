@@ -205,7 +205,7 @@ button.navbar-toggle {
   text-align: justify;
 }
 
-.btn {
+#left.boton-slide, #right.boton-slide {
   position: absolute;
   font-size: 50px;
   font-weight: bold;
@@ -215,6 +215,9 @@ button.navbar-toggle {
   text-shadow: 0 2px 2px #333;
   top: 50%;
   cursor: pointer;
+}
+#left.boton-slide:hover, #right.boton-slide:hover {
+  color: #1c9b0c;
 }
 
 #right {
@@ -356,6 +359,70 @@ div#frase {
 /*END PORTAFOLIOS PAGE*/
 
 /*CONTACTO PAGE*/
+#contact-container{
+  height: 600px;
+  background: url(../images/fondo-contacto.jpg) no-repeat;
+  overflow: hidden;
+  position: relative;
+  background-size: 100% auto;
+  background-position-y: 85%;
+  margin: 0;
+  padding: 0;
+   
+}
+#contact-container h2{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #1c9b0c;
+  top: 35%;
+  left: 45%;
+}
+div.form-container{
+  margin: 0;
+  padding: 30px 0 10px 0;
+}
+div.well-sm{
+  background-color: #333;
+  border: 2px solid #333;
+  box-shadow: 0px 4px 10px #333;
+}
+.header {
+  color: #1c9b0c;
+  font-size: 27px;
+  font-weight: bold;
+  padding: 10px;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+.bigicon {
+  font-size: 35px;
+  color: #f9bc50;
+}
+.form-group .btn{
+  background-color: #1c9b0c;
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 20px;
+  transition: all .3s ease;
+  border: 2px solid #1c9b0c;
+  border-radius: 0;
+}
+.form-group .btn:hover {
+  background-color: white;
+  color: #1c9b0c;
+  border: 2px solid white;
+}
+
 
 /*END CONTACTO PAGE*/
 
@@ -405,7 +472,7 @@ div#frase {
     font-size: 0.9em;
   }
 
-  .btn {
+  #left.boton-slide, #right.boton-slide {
     font-size: 40px;
     top: 40%;
   }
@@ -499,7 +566,7 @@ div#frase {
     font-size: 0.8em;
   }
 
-  .btn {
+  #left.boton-slide, #right.boton-slide {
     font-size: 35px;
     top: 40%;
   }
@@ -614,7 +681,7 @@ div#frase {
     font-size: 0.7em;
   }
 
-  .btn {
+  #left.boton-slide, #right.boton-slide {
     font-size: 30px;
     top: 40%;
   }
@@ -730,7 +797,7 @@ div#frase {
 
   }
 
-  .btn {
+  #left.boton-slide, #right.boton-slide {
     font-size: 25px;
     top: 40%;
   }
