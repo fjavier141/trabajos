@@ -393,6 +393,10 @@ div#frase{
     font-size: 0.9em;
   }
 
+  .btn{
+    font-size: 40px;
+    top: 35%;
+  }
   div#main-content.container-fluid {
     padding: 20px 95px 20px 95px;
     height: 280px;
@@ -478,6 +482,10 @@ div#frase{
 
   .slide P {
     font-size: 0.8em;
+  }
+  .btn{
+    font-size: 35px;
+    top: 27%;
   }
 
   div#main-content.container-fluid {
@@ -588,6 +596,10 @@ div#frase{
   .slide P {
     font-size: 0.7em;
   }
+  .btn{
+    font-size: 30px;
+    top: 20%;
+  }
   div#main-content.container-fluid {
     padding: 20px 45px 20px 45px;
     height: 420px;
@@ -695,7 +707,10 @@ div#frase{
     display: inline-block;
 
   }
-
+  .btn{
+    font-size: 25px;
+    top: 20%;
+  }
   .slide>.lower-div>.botonSlides {
     font-size: 0.7em;
     margin-top: 0;
