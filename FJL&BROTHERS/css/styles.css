@@ -203,20 +203,23 @@ button.navbar-toggle {
   color: white;
   text-align: justify;
 }
-.btn{
+
+.btn {
   position: absolute;
   font-size: 50px;
   font-weight: bold;
-  font-family: arial,sans-serif;
+  font-family: arial, sans-serif;
   color: white;
   text-decoration: none;
   text-shadow: 0 2px 2px #333;
   top: 50%;
   cursor: pointer;
 }
-#right{
-  right:0;
+
+#right {
+  right: 0;
 }
+
 @keyframes fromLeft {
   0% {
     left: -100%;
@@ -304,6 +307,7 @@ div#frase-celebre.parallax {
   padding: 20px 145px 20px 145px;
   height: 400px;
 }
+
 div#frase-celebre.parallax::before {
   background: url(../images/fondo.jpg);
   content: '';
@@ -319,7 +323,8 @@ div#frase-celebre.parallax::before {
   -webkit-filter: brightness(.8);
   filter: brightness(.8);
 }
-div#frase{
+
+div#frase {
   position: relative;
 }
 
@@ -373,13 +378,15 @@ div#frase{
   #slide1 {
     background: url('../images/slides/slide1_md.jpg') no-repeat;
   }
+
   #slide2 {
     background: url('../images/slides/slide2_md.jpg') no-repeat;
   }
+
   #slide3 {
     background: url('../images/slides/slide3_md.jpg') no-repeat;
   }
-  
+
   .slide>.upper-div {
     height: 300px;
     margin: 200px auto 0 auto;
@@ -393,10 +400,11 @@ div#frase{
     font-size: 0.9em;
   }
 
-  .btn{
+  .btn {
     font-size: 40px;
     top: 40%;
   }
+
   div#main-content.container-fluid {
     padding: 20px 95px 20px 95px;
     height: 280px;
@@ -456,13 +464,15 @@ div#frase{
   #slide1 {
     background: url('../images/slides/slide1_sm.jpg') no-repeat;
   }
+
   #slide2 {
     background: url('../images/slides/slide2_sm.jpg') no-repeat;
   }
+
   #slide3 {
     background: url('../images/slides/slide3_sm.jpg') no-repeat;
   }
-  
+
 
   .slide>.upper-div {
     height: 250px;
@@ -483,7 +493,8 @@ div#frase{
   .slide P {
     font-size: 0.8em;
   }
-  .btn{
+
+  .btn {
     font-size: 35px;
     top: 32%;
   }
@@ -566,15 +577,16 @@ div#frase{
 
   #slide1 {
     background: url('../images/slides/slide1_xs.jpg') no-repeat;
-  }  
+  }
 
   #slide2 {
     background: url('../images/slides/slide2_xs.jpg') no-repeat;
   }
+
   #slide3 {
     background: url('../images/slides/slide3_xs.jpg') no-repeat;
   }
-  
+
 
   .slide>.upper-div {
     height: 180px;
@@ -596,10 +608,12 @@ div#frase{
   .slide P {
     font-size: 0.7em;
   }
-  .btn{
+
+  .btn {
     font-size: 30px;
     top: 23%;
   }
+
   div#main-content.container-fluid {
     padding: 20px 45px 20px 45px;
     height: 420px;
@@ -626,6 +640,7 @@ div#frase{
   #frase p {
     font-size: 0.7em;
   }
+
   /* END HOME PAGE*/
   /* Footer */
   .panel-footer {
@@ -682,10 +697,12 @@ div#frase{
 
   #slide1 {
     background: url('../images/slides/slide1_xxs.jpg') no-repeat;
-  }  
+  }
+
   #slide2 {
     background: url('../images/slides/slide2_xxs.jpg') no-repeat;
   }
+
   #slide3 {
     background: url('../images/slides/slide3_xxs.jpg') no-repeat;
   }
@@ -707,10 +724,12 @@ div#frase{
     display: inline-block;
 
   }
-  .btn{
+
+  .btn {
     font-size: 25px;
     top: 22%;
   }
+
   .slide>.lower-div>.botonSlides {
     font-size: 0.7em;
     margin-top: 0;
@@ -749,6 +768,7 @@ div#frase{
     padding-right: 15px;
     padding-left: 15px;
   }
+
   #footer_acerca,
   #footer_contacto {
     font-size: 0.7em;

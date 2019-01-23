@@ -24,8 +24,6 @@ function imageSlide(){
   slide[index].style.display = "block";
   index = index + 1;
   setTimeout(imageSlide, 5000);
-  console.log(index);
-  console.log(slide[index]);
 }
 
 function manualSlide(n){
