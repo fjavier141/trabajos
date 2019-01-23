@@ -1,6 +1,6 @@
 body {
   font-size: 16px;
-  background-color: #fff;
+  background-color: #cacacd;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -22,7 +22,7 @@ a.navbar-brand {
   min-height: 80px;
   margin-bottom: 0;
   border-radius: 0;
-  box-shadow: 0px 2px 10px black;
+  box-shadow: 0px 4px 10px #333;
 }
 
 #navbarNavDropdown {
@@ -288,6 +288,7 @@ div#main-content.container-fluid {
   padding: 20px 130px 20px 130px;
   height: 350px;
   background-color: #cacacd;
+  overflow: auto;
 }
 
 #empresa-principal h2 {
@@ -326,7 +327,10 @@ div#frase-celebre.parallax::before {
 }
 
 div#frase {
-  position: relative;
+  position: absolute;
+  width: 70%;
+  top: 35%;
+  left: 15%;
 }
 
 #frase h3 {
