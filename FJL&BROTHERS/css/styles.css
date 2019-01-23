@@ -203,7 +203,20 @@ button.navbar-toggle {
   color: white;
   text-align: justify;
 }
-
+.btn{
+  position: absolute;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: arial,sans-serif;
+  color: white;
+  text-decoration: none;
+  text-shadow: 0 2px 2px #333;
+  top: 50%;
+  cursor: pointer;
+}
+#right{
+  right:0;
+}
 @keyframes fromLeft {
   0% {
     left: -100%;
