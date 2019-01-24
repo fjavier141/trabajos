@@ -16,6 +16,5 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   // Solution: force focus on the element that the click event fired on
   $("#navbarToggle").click(function (event) {
     $(event.target).focus();
-
   });
 });

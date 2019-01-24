@@ -1,7 +1,8 @@
 body {
   font-size: 16px;
-  background-color: #cacacd;
+  background-color: white;
   font-family: 'Open Sans', sans-serif;
+  color: #333;
 }
 
 /** HEADER **/
@@ -17,12 +18,12 @@ a.navbar-brand {
 }
 
 #collapsable-nav {
-  background-color: #333;
-  border: 1px solid #333;
+  background-color: #eee;
+  border: 1px solid #eee;
   min-height: 80px;
   margin-bottom: 0;
   border-radius: 0;
-  box-shadow: 0px 4px 10px #333;
+  box-shadow: 0px 4px 10px #eee;
 }
 
 #navbarNavDropdown {
@@ -44,9 +45,10 @@ ul.navbar-nav {
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   margin-right: 2vw;
-  color: white;
+  color: #333;
   text-align: center;
   text-decoration: none;
+  font-weight: 700;
 }
 
 #collapsable-nav ul a:hover,
@@ -58,8 +60,8 @@ ul.navbar-nav {
 
 /*Button*/
 button.navbar-toggle {
-  background-color: #333;
-  border: 1.8px solid #333;
+  background-color: #eee;
+  border: 1.8px solid #eee;
   border-radius: 3px;
   padding-right: 10px;
   padding-left: 10px;
@@ -83,8 +85,9 @@ button.navbar-toggle {
   padding-right: 115px;
   padding-left: 115px;
   border-top: 0;
-  color: white;
-  background-color: #333;
+  color: #333;
+  font-weight: 600;
+  background-color: #ddd;
   width: 100%;
 }
 
@@ -293,15 +296,16 @@ button.navbar-toggle {
 div#main-content.container-fluid {
   padding: 20px 130px 20px 130px;
   height: 350px;
-  background-color: #cacacd;
+  background-color: white;
   overflow: auto;
 }
 
-#empresa-principal h2 {
+#empresa-principal h3 {
   text-align: center;
-  color: #1c9b0c;
+  color: #333;
   text-transform: uppercase;
   font-weight: bold;
+  font-size: 1.4;
 }
 
 #empresa-principal p {
@@ -385,9 +389,9 @@ div#frase {
   left: 46%;
 }
 
+div.mapa-container{
+  padding: 50px 115px 0 115px;
 
-div#mapa-container{
-  padding-top: 50px;
 }
 
 div#direccion-mapa{
@@ -399,17 +403,14 @@ div#direccion-mapa h3{
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   margin-bottom: 50px;
-  font-size: 2em;
+  font-size: 1.8em;
 }
-div#direccion-mapa .verde{
-  font-weight: bold;
-  color: #1c9b0c;
-}
+
 div#direccion-mapa p{
   text-align: center;
-  font-size: 1.4em;
+  font-size: 1.2em;
 }
 
 div#map-tile {
@@ -418,10 +419,9 @@ div#map-tile {
   margin-bottom: 50px;
   position: relative;
   overflow: hidden;
+  border: 1px solid #1c9b0c;
 }
-div#map-tile:hover {
-  box-shadow: 0 1px 5px 1px #1c9b0c;
-}
+
 div#map-tile span {
   font-family: 'Open Sans', sans-serif;
   position: absolute;
@@ -431,27 +431,30 @@ div#map-tile span {
   text-align: center;
   font-size: 1.6em;
   text-transform: uppercase;
-  background-color: #333;
+  background-color: #1c9b0c;
   color: #fff;
   opacity: .7;
+  visibility: hidden;
+}
+#map-tile:hover .etiq_hover {
   visibility: visible;
 }
+
 div.form-container {
   margin: 0;
-  padding: 30px 0 10px 0;
+  padding: 30px 115px 10px 115px;
 }
 div.well-sm {
-  background-color: #999;
-  border: 1px solid #999;
+  background-color: #eee;
 }
 
 .header {
-  color: #1c9b0c;
-  font-size: 30px;
+  color: #333;
+  font-size: 1.8em;
   font-weight: bold;
   padding: 10px;
   text-transform: uppercase;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .bigicon {
@@ -476,9 +479,9 @@ div.well-sm {
 }
 
 .form-group .btn:hover {
-  background-color: white;
+  background-color: #eee;
   color: #1c9b0c;
-  border: 2px solid white;
+  border: 2px solid #1c9b0c;
 }
 
 
@@ -541,8 +544,8 @@ div.well-sm {
     height: 280px;
   }
 
-  #empresa-principal h2 {
-    font-size: 1.8em;
+  #empresa-principal h3 {
+    font-size: 1.3em;
   }
 
   #empresa-principal p {
@@ -571,6 +574,52 @@ div.well-sm {
 
   #contact-container h2 {
     font-size: 2em;
+  }
+  div.mapa-container{
+    padding: 40px 80px 0 80px;
+  }
+  
+  div#direccion-mapa{
+    height: 380px;
+    margin-bottom: 40px;
+  }
+  div#direccion-mapa h3{
+    margin-bottom: 40px;
+    font-size: 1.6em;
+  }
+  
+  div#direccion-mapa p{
+    font-size: 1em;
+  }
+  
+  div#map-tile {
+    height: 380px;
+    margin-bottom: 30px;
+  }
+  
+  div#map-tile span {
+    font-size: 1.5em;
+  }
+ 
+  div.form-container {
+    margin: 0;
+    padding: 5px 80px 10px 80px;
+  }
+ 
+  .header {
+    font-size: 1.6em;
+    padding: 8px;
+  }
+  
+  .bigicon {
+    font-size: 28px;
+  }
+  
+  .form-group .btn {
+    width: 180px;
+    height: 45px;
+    font-size: 0.9em;
+    margin-top: 18px;
   }
 
   /*END CONTACTO PAGE*/
@@ -646,8 +695,8 @@ div.well-sm {
     height: 260px;
   }
 
-  #empresa-principal h2 {
-    font-size: 1.7em;
+  #empresa-principal h3 {
+    font-size: 1.2em;
   }
 
   #empresa-principal p {
@@ -677,7 +726,52 @@ div.well-sm {
   #contact-container h2 {
     font-size: 1.8em;
   }
-
+  div.mapa-container{
+    padding: 30px 50px 0 50px;
+  }
+  
+  div#direccion-mapa{
+    height: 330px;
+    margin-bottom: 30px;
+  }
+  div#direccion-mapa h3{
+    margin-bottom: 30px;
+    font-size: 1.4em;
+  }
+  
+  div#direccion-mapa p{
+    font-size: 0.9em;
+  }
+  
+  div#map-tile {
+    height: 330px;
+    margin-bottom: 30px;
+  }
+  
+  div#map-tile span {
+    font-size: 1.4em;
+  }
+ 
+  div.form-container {
+    margin: 0;
+    padding: 0px 50px 5px 50px;
+  }
+ 
+  .header {
+    font-size: 1.4em;
+    padding: 5px;
+  }
+  
+  .bigicon {
+    font-size: 25px;
+  }
+  
+  .form-group .btn {
+    width: 160px;
+    height: 40px;
+    font-size: 0.8em;
+    margin-top: 15px;
+  }
   /*END CONTACTO PAGE*/
   .panel-footer {
     padding-right: 50px;
@@ -771,8 +865,8 @@ div.well-sm {
     height: 420px;
   }
 
-  #empresa-principal h2 {
-    font-size: 1.4em;
+  #empresa-principal h3 {
+    font-size: 1.1em;
   }
 
   #empresa-principal p {
@@ -801,8 +895,54 @@ div.well-sm {
 
   #contact-container h2 {
     font-size: 1.5em;
+    left: 40%;
   }
-
+  div.mapa-container{
+    padding: 0 30px 0 30px
+  }
+  
+  div#direccion-mapa{
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  div#direccion-mapa h3{
+    margin-bottom: 20px;
+    font-size: 1.2em;
+  }
+  
+  div#direccion-mapa p{
+    font-size: 0.8em;
+  }
+  
+  div#map-tile {
+    height: 280px;
+    margin-bottom:20px;
+  }
+  
+  div#map-tile span {
+    font-size: 1.2em;
+  }
+ 
+  div.form-container {
+    margin: 0;
+    padding: 0 30px 0 30px;
+  }
+ 
+  .header {
+    font-size: 1.4em;
+    padding: 5px;
+  }
+  
+  .bigicon {
+    font-size: 25px;
+  }
+  
+  .form-group .btn {
+    width: 160px;
+    height: 40px;
+    font-size: 0.8em;
+    margin-top: 15px;
+  }
   /*END CONTACTO PAGE*/
   /* Footer */
   .panel-footer {
@@ -905,8 +1045,8 @@ div.well-sm {
     height: 380px;
   }
 
-  #empresa-principal h2 {
-    font-size: 1.2em;
+  #empresa-principal h3 {
+    font-size: 1em;
   }
 
   #empresa-principal p {
@@ -934,6 +1074,54 @@ div.well-sm {
 
   #contact-container h2 {
     font-size: 1.4em;
+    left: 38%;
+  }
+
+  div.mapa-container{
+    padding: 0 15px 0 15px
+  }
+  
+  div#direccion-mapa{
+    height: 220px;
+    margin-bottom: 0;
+  }
+  div#direccion-mapa h3{
+    margin-bottom: 10px;
+    font-size: 1em;
+  }
+  
+  div#direccion-mapa p{
+    font-size: 0.8em;
+  }
+  
+  div#map-tile {
+    height: 280px;
+    margin-bottom:20px;
+  }
+  
+  div#map-tile span {
+    font-size: 1.2em;
+  }
+ 
+  div.form-container {
+    margin: 0;
+    padding: 0 15px 0 15px;
+  }
+ 
+  .header {
+    font-size: 1.2em;
+    padding: 5px;
+  }
+  
+  .bigicon {
+    font-size: 20px;
+  }
+  
+  .form-group .btn {
+    width: 160px;
+    height: 40px;
+    font-size: 0.9em;
+    margin-top: 15px;
   }
 
   /*END CONTACTO PAGE*/
