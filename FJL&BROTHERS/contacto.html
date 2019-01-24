@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amaranth" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
     crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
 </head>
 
 <body>
@@ -56,7 +57,25 @@
   <div id="contact-container" class="hero-container">
     <h2>Contacto</h2>
   </div>
-  <div class="form-container parallax">
+  <div class="container">
+    <div id="tiles" class="row">
+      <div class="mapa col-md-4 col-sm-4 col-xs-12">
+        <h3>Mapa del Sitio</h3>
+        <span>Dirección</span>
+        <p>.colocardirección</p>
+      </div>
+      <div class="mapa col-md-8 col-sm-8 col-xs-12">
+        <a href="https://goo.gl/maps/ackF5Y6RxcC2" target="_blank">
+          <div id="map-tile">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d106559.88202830525!2d-70.58962869256558!3d-33.42334046920947!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2scl!4v1548293249925"
+              width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+            <span>mapa</span>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="form-container">
     <div class="container">
       <div class="row">
         <div class="col-md-12">
@@ -79,7 +98,7 @@
                 </div>
 
                 <div class="form-group">
-                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                  <span class="col-md-1 col-md-offset-2 text-center"><i class="fas fa-envelope bigicon"></i></span>
                   <div class="col-md-8">
                     <input id="email" name="email" type="text" placeholder="Email" class="form-control">
                   </div>
@@ -95,7 +114,7 @@
                 <div class="form-group">
                   <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
                   <div class="col-md-8">
-                    <textarea class="form-control" id="message" name="message" placeholder="Ingresa tu mensaje. Te contactaremos en 2 días"
+                    <textarea class="form-control" id="message" name="message" placeholder="Inserta tu mensaje. Te contactaremos en 2 días"
                       rows="7"></textarea>
                   </div>
                 </div>

@@ -41,7 +41,7 @@ ul.navbar-nav {
 
 #collapsable-nav ul li a {
   font-size: 1em;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   margin-right: 2vw;
   color: white;
@@ -90,7 +90,7 @@ button.navbar-toggle {
 
 .panel-footer div.row {
   margin-bottom: 35px;
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #footer_acerca,
@@ -205,7 +205,8 @@ button.navbar-toggle {
   text-align: justify;
 }
 
-#left.boton-slide, #right.boton-slide {
+#left.boton-slide,
+#right.boton-slide {
   position: absolute;
   font-size: 50px;
   font-weight: bold;
@@ -216,7 +217,9 @@ button.navbar-toggle {
   top: 50%;
   cursor: pointer;
 }
-#left.boton-slide:hover, #right.boton-slide:hover {
+
+#left.boton-slide:hover,
+#right.boton-slide:hover {
   color: #1c9b0c;
 }
 
@@ -359,7 +362,7 @@ div#frase {
 /*END PORTAFOLIOS PAGE*/
 
 /*CONTACTO PAGE*/
-#contact-container{
+#contact-container {
   height: 600px;
   background: url(../images/fondo-contacto.jpg) no-repeat;
   overflow: hidden;
@@ -368,9 +371,10 @@ div#frase {
   background-position-y: 85%;
   margin: 0;
   padding: 0;
-   
+
 }
-#contact-container h2{
+
+#contact-container h2 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   position: absolute;
@@ -378,20 +382,46 @@ div#frase {
   font-weight: bold;
   color: #1c9b0c;
   top: 35%;
-  left: 45%;
+  left: 46%;
 }
-div.form-container{
+
+div.form-container {
   margin: 0;
   padding: 30px 0 10px 0;
 }
-div.well-sm{
-  background-color: #333;
-  border: 2px solid #333;
-  box-shadow: 0px 4px 10px #333;
+
+div#map-tile {
+  height: 430px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
 }
+div#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #1c9b0c;
+}
+div#map-tile span {
+  font-family: 'Open Sans', sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #333;
+  color: #fff;
+  opacity: .7;
+  visibility: visible;
+}
+div.well-sm {
+  background-color: #999;
+  border: 1px solid #999;
+}
+
 .header {
   color: #1c9b0c;
-  font-size: 27px;
+  font-size: 30px;
   font-weight: bold;
   padding: 10px;
   text-transform: uppercase;
@@ -399,10 +429,11 @@ div.well-sm{
 }
 
 .bigicon {
-  font-size: 35px;
-  color: #f9bc50;
+  font-size: 30px;
+  color: #1c9b0c;
 }
-.form-group .btn{
+
+.form-group .btn {
   background-color: #1c9b0c;
   color: white;
   width: 200px;
@@ -417,6 +448,7 @@ div.well-sm{
   border: 2px solid #1c9b0c;
   border-radius: 0;
 }
+
 .form-group .btn:hover {
   background-color: white;
   color: #1c9b0c;
@@ -472,7 +504,8 @@ div.well-sm{
     font-size: 0.9em;
   }
 
-  #left.boton-slide, #right.boton-slide {
+  #left.boton-slide,
+  #right.boton-slide {
     font-size: 40px;
     top: 40%;
   }
@@ -505,6 +538,16 @@ div.well-sm{
   }
 
   /* END Home Page */
+  /*CONTACTO PAGE*/
+  #contact-container {
+    height: 450px;
+  }
+
+  #contact-container h2 {
+    font-size: 2em;
+  }
+
+  /*END CONTACTO PAGE*/
 
   .panel-footer {
     padding-right: 80px;
@@ -566,7 +609,8 @@ div.well-sm{
     font-size: 0.8em;
   }
 
-  #left.boton-slide, #right.boton-slide {
+  #left.boton-slide,
+  #right.boton-slide {
     font-size: 35px;
     top: 40%;
   }
@@ -599,7 +643,16 @@ div.well-sm{
   }
 
   /* End Home Page */
+  /*CONTACTO PAGE*/
+  #contact-container {
+    height: 350px;
+  }
 
+  #contact-container h2 {
+    font-size: 1.8em;
+  }
+
+  /*END CONTACTO PAGE*/
   .panel-footer {
     padding-right: 50px;
     padding-left: 50px;
@@ -681,7 +734,8 @@ div.well-sm{
     font-size: 0.7em;
   }
 
-  #left.boton-slide, #right.boton-slide {
+  #left.boton-slide,
+  #right.boton-slide {
     font-size: 30px;
     top: 40%;
   }
@@ -714,6 +768,16 @@ div.well-sm{
   }
 
   /* END HOME PAGE*/
+  /*CONTACTO PAGE*/
+  #contact-container {
+    height: 300px;
+  }
+
+  #contact-container h2 {
+    font-size: 1.5em;
+  }
+
+  /*END CONTACTO PAGE*/
   /* Footer */
   .panel-footer {
     padding-right: 30px;
@@ -797,7 +861,8 @@ div.well-sm{
 
   }
 
-  #left.boton-slide, #right.boton-slide {
+  #left.boton-slide,
+  #right.boton-slide {
     font-size: 25px;
     top: 40%;
   }
@@ -835,6 +900,17 @@ div.well-sm{
   #frase p {
     font-size: 0.6em;
   }
+
+  /*CONTACTO PAGE*/
+  #contact-container {
+    height: 250px;
+  }
+
+  #contact-container h2 {
+    font-size: 1.4em;
+  }
+
+  /*END CONTACTO PAGE*/
 
   .panel-footer {
     padding-right: 15px;
