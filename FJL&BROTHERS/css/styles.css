@@ -385,9 +385,31 @@ div#frase {
   left: 46%;
 }
 
-div.form-container {
-  margin: 0;
-  padding: 30px 0 10px 0;
+
+div#mapa-container{
+  padding-top: 50px;
+}
+
+div#direccion-mapa{
+  height: 430px;
+  margin-bottom: 50px;
+  overflow: auto;
+}
+div#direccion-mapa h3{
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  margin-bottom: 50px;
+  font-size: 2em;
+}
+div#direccion-mapa .verde{
+  font-weight: bold;
+  color: #1c9b0c;
+}
+div#direccion-mapa p{
+  text-align: center;
+  font-size: 1.4em;
 }
 
 div#map-tile {
@@ -413,6 +435,10 @@ div#map-tile span {
   color: #fff;
   opacity: .7;
   visibility: visible;
+}
+div.form-container {
+  margin: 0;
+  padding: 30px 0 10px 0;
 }
 div.well-sm {
   background-color: #999;
