@@ -1163,23 +1163,20 @@ div#map-tile span {
   /***SERVICIOS PAGE***/
   div#services-container {
     background: url(../images/hero/servicios-xxs.jpg) no-repeat;
-    background-size: 100% auto;
-    background-position-y: 45%;
+    background-size: cover;
   }
 
   /***END SERVICIOS PAGE***/
     /***PORTAFOLIO PAGE***/
     div#portfolio-container {
       background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
-      background-size: 100% auto;
-      background-position-y: 50%;
+      background-size: cover;
     }
     /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
   div#contact-container {
     background: url(../images/hero/contacto-xxs.jpg) no-repeat;
-    background-size: 100% auto;
-    background-position-y: 85%;
+    background-size: cover;
   }
 
   .hero-container {
