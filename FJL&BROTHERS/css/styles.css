@@ -581,85 +581,47 @@ div#map-tile span {
   div.form-container {
     padding: 20px 80px 20px 80px;
   }
-  
+
   /*DATOS CONTACTO*/
-  #direccion {
-    overflow: auto;
-  }
-  
   #direccion h3,
   #mapa h3 {
     margin-bottom: 45px;
     font-size: 1.6em;
   }
-  
+
   #direccion p {
-    text-align: center;
     font-size: 1.1em;
   }
-  
+
   /*END DATOS CONTACTO*/
   /*FORMULARIO*/
-    
+
   .bigicon {
     font-size: 28px;
-    color: #f9bc50;
   }
-  
-  
+
   .form-group .btn {
-    background-color: #1c9b0c;
-    color: white;
     width: 200px;
     height: 50px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Oswald', sans-serif;
-    text-decoration: none;
-    font-size: 1em;
-    margin-top: 20px;
-    transition: all .3s ease;
-    border: 2px solid #1c9b0c;
-    border-radius: 0;
+    margin-top: 18px;
   }
-  
-  .form-group .btn:hover {
-    background-color: white;
-    color: #1c9b0c;
-    border: 2px solid #1c9b0c;
-  }
-  
+
   /*END FORMULARIO*/
-  
+
   /*MAPA*/
   div#map-tile {
-    height: 430px;
-    width: 100%;
-    margin-bottom: 50px;
-    position: relative;
-    overflow: hidden;
-    border: 1px solid #1c9b0c;
+    height: 380px;
+    margin-bottom: 35px;
   }
-  
+
   div#map-tile span {
-    font-family: 'Open Sans', sans-serif;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    font-size: 1.6em;
-    text-transform: uppercase;
-    background-color: #1c9b0c;
-    color: #fff;
-    opacity: .7;
-    visibility: hidden;
+    font-size: 1.5em;
   }
-  
-  #map-tile:hover .etiq_hover {
-    visibility: visible;
+
+  iframe {
+    width: 1200px;
+    height: 380px;
   }
-  
   /*END MAPA*/
   /***END CONTACTO PAGE***/
 
@@ -766,61 +728,53 @@ div#map-tile span {
     font-size: 1.8em;
   }
 
-  div.mapa-container {
-    padding: 30px 50px 0 50px;
+  div.form-container {
+    padding: 15px 50px 15px 50px;
   }
 
-  #direccion {
-    height: 330px;
-    margin-bottom: 30px;
-  }
-
+  /*DATOS CONTACTO*/
   #direccion h3,
   #mapa h3 {
-    margin-bottom: 30px;
-    font-size: 1.4em;
+    margin-bottom: 40px;
+    font-size: 1.5em;
   }
 
   #direccion p {
+    font-size: 1em;
+  }
+
+  /*END DATOS CONTACTO*/
+  /*FORMULARIO*/
+
+  .bigicon {
+    font-size: 26px;
+  }
+
+  .form-group .btn {
+    width: 180px;
+    height: 45px;
+    margin-top: 15px;
     font-size: 0.9em;
   }
 
+  /*END FORMULARIO*/
+
+  /*MAPA*/
   div#map-tile {
     height: 330px;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
   }
 
   div#map-tile span {
     font-size: 1.4em;
   }
 
-  div.form-container {
-    margin: 0;
-    padding: 0px 50px 5px 50px;
-  }
-
-  .header {
-    font-size: 1.4em;
-    padding: 5px;
-  }
-
-  .bigicon {
-    font-size: 25px;
-  }
-
-  .form-group .btn {
-    width: 160px;
-    height: 40px;
-    font-size: 0.8em;
-    margin-top: 15px;
-  }
-
   iframe {
     width: 991px;
     height: 330px;
   }
-
-  /*END CONTACTO PAGE*/
+  /*END MAPA*/
+  /***END CONTACTO PAGE***/
   .panel-footer {
     padding-right: 50px;
     padding-left: 50px;
@@ -946,53 +900,45 @@ div#map-tile span {
     left: 40%;
   }
 
-  div.mapa-container {
-    padding: 0 30px 0 30px
+  div.form-container {
+    padding: 5px 30px 5px 30px;
   }
 
-  #direccion {
-    height: 250px;
-    margin-bottom: 20px;
-  }
-
+  /*DATOS CONTACTO*/
   #direccion h3,
   #mapa h3 {
-    margin-bottom: 20px;
-    font-size: 1.2em;
+    margin-bottom: 25px;
+    font-size: 1.3em;
   }
 
   #direccion p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
-  div#map-tile {
-    height: 280px;
-    margin-bottom: 20px;
-  }
-
-  div#map-tile span {
-    font-size: 1.2em;
-  }
-
-  div.form-container {
-    margin: 0;
-    padding: 0 30px 0 30px;
-  }
-
-  .header {
-    font-size: 1.4em;
-    padding: 5px;
-  }
+  /*END DATOS CONTACTO*/
+  /*FORMULARIO*/
 
   .bigicon {
-    font-size: 25px;
+    font-size: 24px;
   }
 
   .form-group .btn {
     width: 160px;
     height: 40px;
-    font-size: 0.8em;
-    margin-top: 15px;
+    margin-top: 5px;
+    font-size: 0.9em;
+  }
+
+  /*END FORMULARIO*/
+
+  /*MAPA*/
+  div#map-tile {
+    height: 280px;
+    margin-bottom: 15px;
+  }
+
+  div#map-tile span {
+    font-size: 1.3em;
   }
 
   iframe {
@@ -1000,7 +946,8 @@ div#map-tile span {
     height: 280px;
   }
 
-  /*END CONTACTO PAGE*/
+  /*END MAPA*/
+  /***END CONTACTO PAGE***/
   /* Footer */
   .panel-footer {
     padding-right: 30px;
@@ -1124,7 +1071,7 @@ div#map-tile span {
     font-size: 0.6em;
   }
 
-  /*CONTACTO PAGE*/
+  /***CONTACTO PAGE***/
   #contact-container {
     height: 250px;
   }
@@ -1134,61 +1081,53 @@ div#map-tile span {
     left: 38%;
   }
 
-  div.mapa-container {
-    padding: 0 15px 0 15px
+  div.form-container {
+    padding: 0 15px 5px 0;
   }
 
-  #direccion {
-    height: 220px;
-    margin-bottom: 0;
-  }
-
+  /*DATOS CONTACTO*/
   #direccion h3,
   #mapa h3 {
     margin-bottom: 10px;
-    font-size: 1em;
+    font-size: 1.2em;
   }
 
   #direccion p {
-    font-size: 0.8em;
+    font-size: 0.9em;
   }
 
-  div#map-tile {
-    height: 280px;
-    margin-bottom: 20px;
-  }
-
-  div#map-tile span {
-    font-size: 1.2em;
-  }
-
-  div.form-container {
-    margin: 0;
-    padding: 0 15px 0 15px;
-  }
-
-  .header {
-    font-size: 1.2em;
-    padding: 5px;
-  }
+  /*END DATOS CONTACTO*/
+  /*FORMULARIO*/
 
   .bigicon {
-    font-size: 20px;
+    font-size: 22px;
   }
 
   .form-group .btn {
     width: 160px;
     height: 40px;
+    margin-top: 5px;
     font-size: 0.9em;
-    margin-top: 15px;
+  }
+
+  /*END FORMULARIO*/
+
+  /*MAPA*/
+  div#map-tile {
+    height: 230px;
+    margin-bottom: 10px;
+  }
+
+  div#map-tile span {
+    font-size: 1.1em;
   }
 
   iframe {
     width: 480px;
-    height: 280px;
+    height: 230px;
   }
-
-  /*END CONTACTO PAGE*/
+  /*END MAPA*/
+  /***END CONTACTO PAGE***/
 
   .panel-footer {
     padding-right: 15px;
