@@ -305,12 +305,13 @@ div#main-content.container-fluid {
   color: #333;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.4;
+  font-size: 1.4em;
 }
 
 #empresa-principal p {
   text-align: justify;
   color: #333;
+  font-size: 1em;
 }
 
 /*PARALLAX*/
@@ -371,6 +372,29 @@ div#services-container {
   color: #1c9b0c;
 }
 
+div.main-container {
+  padding: 20px 115px 20px 115px;
+}
+
+div.main-container h3, div.main-container h4{
+  text-align: center;
+  color: #333;
+  text-transform: uppercase;
+  font-weight: bold; 
+}
+div.main-container h3{
+  font-size: 1.4em;
+  
+}
+div.main-container h4{
+  font-size: 1.3em;
+  
+}
+div.main-container p{
+  text-align: justify;
+  color: #333;
+  font-size: 1em
+}
 /***END SERVICIOS PAGE***/
 /***PORTAFOLIO PAGE***/
 div#portfolio-container {
@@ -599,6 +623,21 @@ div#map-tile span {
     background-position-y: 45%;
   }
 
+  div.main-container {
+    padding: 20px 80px 20px 80px;
+  }
+ 
+  div.main-container h3{
+    font-size: 1.3em;
+    
+  }
+  div.main-container h4{
+    font-size: 1.2em;
+    
+  }
+  div.main-container p{
+    font-size: 0.9em
+  }
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
@@ -606,6 +645,7 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
+
   /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
   div#contact-container {
@@ -771,14 +811,29 @@ div#map-tile span {
     background-position-y: 45%;
   }
 
+  div.main-container {
+    padding: 15px 50px 15px 50px;
+  }
+  div.main-container h3{
+    font-size: 1.2em;
+    
+  }
+  div.main-container h4{
+    font-size: 1.1em;
+    
+  }
+  div.main-container p{
+    font-size: 0.8em
+  }
   /***END SERVICIOS PAGE***/
-    /***PORTAFOLIO PAGE***/
-    div#portfolio-container {
-      background: url(../images/hero/portafolio-sm.jpg) no-repeat;
-      background-size: 100% auto;
-      background-position-y: 50%;
-    }
-    /***END PORTAFOLIOS PAGE***/
+  /***PORTAFOLIO PAGE***/
+  div#portfolio-container {
+    background: url(../images/hero/portafolio-sm.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 50%;
+  }
+
+  /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
     background: url(../images/hero/contacto-sm.jpg) no-repeat;
@@ -939,7 +994,7 @@ div#map-tile span {
   }
 
   #empresa-principal p {
-    font-size: 0.7em;
+    font-size: 0.8em;
   }
 
   /**Contador**/
@@ -964,14 +1019,29 @@ div#map-tile span {
     background-position-y: 45%;
   }
 
+  div.main-container {
+    padding: 5px 30px 5px 30px;
+  }
+  div.main-container h3{
+    font-size: 1.1em;
+    
+  }
+  div.main-container h4{
+    font-size: 1em;
+    
+  }
+  div.main-container p{
+    font-size: 0.8em
+  }
   /***END SERVICIOS PAGE***/
-    /***PORTAFOLIO PAGE***/
-    div#portfolio-container {
-      background: url(../images/hero/portafolio-xs.jpg) no-repeat;
-      background-size: 100% auto;
-      background-position-y: 50%;
-    }
-    /***END PORTAFOLIOS PAGE***/
+  /***PORTAFOLIO PAGE***/
+  div#portfolio-container {
+    background: url(../images/hero/portafolio-xs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 50%;
+  }
+
+  /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
     background: url(../images/hero/contacto-xs.jpg) no-repeat;
@@ -1142,7 +1212,7 @@ div#map-tile span {
   }
 
   #empresa-principal p {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 
   /**Contador**/
@@ -1156,7 +1226,7 @@ div#map-tile span {
   }
 
   #frase p {
-    font-size: 0.6em;
+    font-size: 0.7em;
   }
 
   /***END HOME PAGE***/
@@ -1166,13 +1236,28 @@ div#map-tile span {
     background-size: cover;
   }
 
+  div.main-container {
+    padding: 0 15px 0 15px;
+  }
+  div.main-container h3{
+    font-size: 1em;
+    
+  }
+  div.main-container h4{
+    font-size: 0.9em;
+    
+  }
+  div.main-container p{
+    font-size: 0.7em
+  }
   /***END SERVICIOS PAGE***/
-    /***PORTAFOLIO PAGE***/
-    div#portfolio-container {
-      background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
-      background-size: cover;
-    }
-    /***END PORTAFOLIOS PAGE***/
+  /***PORTAFOLIO PAGE***/
+  div#portfolio-container {
+    background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
   div#contact-container {
     background: url(../images/hero/contacto-xxs.jpg) no-repeat;
