@@ -5,7 +5,7 @@ body {
   color: #333;
 }
 
-/** HEADER **/
+/***HEADER***/
 h1,
 h2 {
   font-family: 'Oswald', sans-serif;
@@ -58,7 +58,7 @@ ul.navbar-nav {
   color: #f9bc50;
 }
 
-/*Button*/
+/*MENU BUTTON*/
 button.navbar-toggle {
   background-color: #eee;
   border: 1.8px solid #eee;
@@ -74,10 +74,10 @@ button.navbar-toggle {
   border: 1.6px solid #1c9b0c;
 }
 
-/*End Button*/
-/* END HEADER */
+/*END MENU BUTTON*/
+/***END HEADER***/
 
-/* FOOTER */
+/***FOOTER***/
 .panel-footer {
   margin-top: 0;
   padding-top: 25px;
@@ -124,9 +124,9 @@ button.navbar-toggle {
   text-align: justify;
 }
 
-/* END FOOTER */
+/***END FOOTER***/
 
-/*MAIN PAGE*/
+/***MAIN PAGE***/
 .slider-container {
   width: 100%;
   height: 898px;
@@ -310,10 +310,10 @@ div#main-content.container-fluid {
 
 #empresa-principal p {
   text-align: justify;
-  color: black;
+  color: #333;
 }
 
-/**Contador**/
+/*PARALLAX*/
 div#frase-celebre.parallax {
   position: relative;
   padding: 20px 145px 20px 145px;
@@ -357,15 +357,17 @@ div#frase {
   color: white;
 }
 
-/*END MAIN PAGE*/
-/*SERVICIOS PAGE*/
+/*PARALLAX*/
 
-/*END SERVICIOS PAGE*/
-/*PORTAFOLIO PAGE*/
+/***END MAIN PAGE***/
+/***SERVICIOS PAGE***/
 
-/*END PORTAFOLIOS PAGE*/
+/***END SERVICIOS PAGE***/
+/***PORTAFOLIO PAGE***/
 
-/*CONTACTO PAGE*/
+/***END PORTAFOLIOS PAGE***/
+
+/***CONTACTO PAGE***/
 #contact-container {
   height: 600px;
   background: url(../images/fondo-contacto.jpg) no-repeat;
@@ -389,30 +391,73 @@ div#frase {
   left: 46%;
 }
 
-div.mapa-container{
-  padding: 50px 115px 0 115px;
-
+div.form-container {
+  margin: 0;
+  padding: 20px 115px 20px 115px;
 }
 
-div#direccion-mapa{
-  height: 430px;
-  margin-bottom: 50px;
+/*DATOS CONTACTO*/
+#direccion {
   overflow: auto;
 }
-div#direccion-mapa h3{
+
+#direccion h3,
+#mapa h3 {
   text-transform: uppercase;
   font-weight: bold;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   margin-bottom: 50px;
-  font-size: 1.8em;
+  font-size: 1.7em;
 }
 
-div#direccion-mapa p{
+#direccion p {
   text-align: center;
   font-size: 1.2em;
 }
 
+/*END DATOS CONTACTO*/
+/*FORMULARIO*/
+div.well-sm {
+  background-color: white;
+  border: 1px solid white;
+}
+
+.header {
+  border: 3px solid white;
+}
+
+.bigicon {
+  font-size: 30px;
+  color: #f9bc50;
+}
+
+
+.form-group .btn {
+  background-color: #1c9b0c;
+  color: white;
+  width: 200px;
+  height: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+  font-size: 1em;
+  margin-top: 20px;
+  transition: all .3s ease;
+  border: 2px solid #1c9b0c;
+  border-radius: 0;
+}
+
+.form-group .btn:hover {
+  background-color: white;
+  color: #1c9b0c;
+  border: 2px solid #1c9b0c;
+}
+
+/*END FORMULARIO*/
+
+/*MAPA*/
 div#map-tile {
   height: 430px;
   width: 100%;
@@ -436,56 +481,13 @@ div#map-tile span {
   opacity: .7;
   visibility: hidden;
 }
+
 #map-tile:hover .etiq_hover {
   visibility: visible;
 }
 
-div.form-container {
-  margin: 0;
-  padding: 30px 115px 10px 115px;
-}
-div.well-sm {
-  background-color: #eee;
-}
-
-.header {
-  color: #333;
-  font-size: 1.8em;
-  font-weight: bold;
-  padding: 10px;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.bigicon {
-  font-size: 30px;
-  color: #1c9b0c;
-}
-
-.form-group .btn {
-  background-color: #1c9b0c;
-  color: white;
-  width: 200px;
-  height: 50px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: 'Oswald', sans-serif;
-  text-decoration: none;
-  font-size: 1em;
-  margin-top: 20px;
-  transition: all .3s ease;
-  border: 2px solid #1c9b0c;
-  border-radius: 0;
-}
-
-.form-group .btn:hover {
-  background-color: #eee;
-  color: #1c9b0c;
-  border: 2px solid #1c9b0c;
-}
-
-
-/*END CONTACTO PAGE*/
+/*END MAPA*/
+/***END CONTACTO PAGE***/
 
 /********** Medium devices only **********/
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -566,8 +568,8 @@ div.well-sm {
     font-size: 0.9em;
   }
 
-  /* END Home Page */
-  /*CONTACTO PAGE*/
+  /***END Home Page***/
+  /***CONTACTO PAGE***/
   #contact-container {
     height: 450px;
   }
@@ -575,54 +577,91 @@ div.well-sm {
   #contact-container h2 {
     font-size: 2em;
   }
-  div.mapa-container{
-    padding: 40px 80px 0 80px;
+
+  div.form-container {
+    padding: 20px 80px 20px 80px;
   }
   
-  div#direccion-mapa{
-    height: 380px;
-    margin-bottom: 40px;
+  /*DATOS CONTACTO*/
+  #direccion {
+    overflow: auto;
   }
-  div#direccion-mapa h3{
-    margin-bottom: 40px;
+  
+  #direccion h3,
+  #mapa h3 {
+    margin-bottom: 45px;
     font-size: 1.6em;
   }
   
-  div#direccion-mapa p{
-    font-size: 1em;
+  #direccion p {
+    text-align: center;
+    font-size: 1.1em;
   }
   
+  /*END DATOS CONTACTO*/
+  /*FORMULARIO*/
+    
+  .bigicon {
+    font-size: 28px;
+    color: #f9bc50;
+  }
+  
+  
+  .form-group .btn {
+    background-color: #1c9b0c;
+    color: white;
+    width: 200px;
+    height: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+    font-size: 1em;
+    margin-top: 20px;
+    transition: all .3s ease;
+    border: 2px solid #1c9b0c;
+    border-radius: 0;
+  }
+  
+  .form-group .btn:hover {
+    background-color: white;
+    color: #1c9b0c;
+    border: 2px solid #1c9b0c;
+  }
+  
+  /*END FORMULARIO*/
+  
+  /*MAPA*/
   div#map-tile {
-    height: 380px;
-    margin-bottom: 30px;
+    height: 430px;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #1c9b0c;
   }
   
   div#map-tile span {
-    font-size: 1.5em;
-  }
- 
-  div.form-container {
-    margin: 0;
-    padding: 5px 80px 10px 80px;
-  }
- 
-  .header {
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
     font-size: 1.6em;
-    padding: 8px;
+    text-transform: uppercase;
+    background-color: #1c9b0c;
+    color: #fff;
+    opacity: .7;
+    visibility: hidden;
   }
   
-  .bigicon {
-    font-size: 28px;
+  #map-tile:hover .etiq_hover {
+    visibility: visible;
   }
   
-  .form-group .btn {
-    width: 180px;
-    height: 45px;
-    font-size: 0.9em;
-    margin-top: 18px;
-  }
-
-  /*END CONTACTO PAGE*/
+  /*END MAPA*/
+  /***END CONTACTO PAGE***/
 
   .panel-footer {
     padding-right: 80px;
@@ -726,52 +765,61 @@ div.well-sm {
   #contact-container h2 {
     font-size: 1.8em;
   }
-  div.mapa-container{
+
+  div.mapa-container {
     padding: 30px 50px 0 50px;
   }
-  
-  div#direccion-mapa{
+
+  #direccion {
     height: 330px;
     margin-bottom: 30px;
   }
-  div#direccion-mapa h3{
+
+  #direccion h3,
+  #mapa h3 {
     margin-bottom: 30px;
     font-size: 1.4em;
   }
-  
-  div#direccion-mapa p{
+
+  #direccion p {
     font-size: 0.9em;
   }
-  
+
   div#map-tile {
     height: 330px;
     margin-bottom: 30px;
   }
-  
+
   div#map-tile span {
     font-size: 1.4em;
   }
- 
+
   div.form-container {
     margin: 0;
     padding: 0px 50px 5px 50px;
   }
- 
+
   .header {
     font-size: 1.4em;
     padding: 5px;
   }
-  
+
   .bigicon {
     font-size: 25px;
   }
-  
+
   .form-group .btn {
     width: 160px;
     height: 40px;
     font-size: 0.8em;
     margin-top: 15px;
   }
+
+  iframe {
+    width: 991px;
+    height: 330px;
+  }
+
   /*END CONTACTO PAGE*/
   .panel-footer {
     padding-right: 50px;
@@ -897,52 +945,61 @@ div.well-sm {
     font-size: 1.5em;
     left: 40%;
   }
-  div.mapa-container{
+
+  div.mapa-container {
     padding: 0 30px 0 30px
   }
-  
-  div#direccion-mapa{
+
+  #direccion {
     height: 250px;
     margin-bottom: 20px;
   }
-  div#direccion-mapa h3{
+
+  #direccion h3,
+  #mapa h3 {
     margin-bottom: 20px;
     font-size: 1.2em;
   }
-  
-  div#direccion-mapa p{
+
+  #direccion p {
     font-size: 0.8em;
   }
-  
+
   div#map-tile {
     height: 280px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
-  
+
   div#map-tile span {
     font-size: 1.2em;
   }
- 
+
   div.form-container {
     margin: 0;
     padding: 0 30px 0 30px;
   }
- 
+
   .header {
     font-size: 1.4em;
     padding: 5px;
   }
-  
+
   .bigicon {
     font-size: 25px;
   }
-  
+
   .form-group .btn {
     width: 160px;
     height: 40px;
     font-size: 0.8em;
     margin-top: 15px;
   }
+
+  iframe {
+    width: 767px;
+    height: 280px;
+  }
+
   /*END CONTACTO PAGE*/
   /* Footer */
   .panel-footer {
@@ -1077,51 +1134,58 @@ div.well-sm {
     left: 38%;
   }
 
-  div.mapa-container{
+  div.mapa-container {
     padding: 0 15px 0 15px
   }
-  
-  div#direccion-mapa{
+
+  #direccion {
     height: 220px;
     margin-bottom: 0;
   }
-  div#direccion-mapa h3{
+
+  #direccion h3,
+  #mapa h3 {
     margin-bottom: 10px;
     font-size: 1em;
   }
-  
-  div#direccion-mapa p{
+
+  #direccion p {
     font-size: 0.8em;
   }
-  
+
   div#map-tile {
     height: 280px;
-    margin-bottom:20px;
+    margin-bottom: 20px;
   }
-  
+
   div#map-tile span {
     font-size: 1.2em;
   }
- 
+
   div.form-container {
     margin: 0;
     padding: 0 15px 0 15px;
   }
- 
+
   .header {
     font-size: 1.2em;
     padding: 5px;
   }
-  
+
   .bigicon {
     font-size: 20px;
   }
-  
+
   .form-group .btn {
     width: 160px;
     height: 40px;
     font-size: 0.9em;
     margin-top: 15px;
+  }
+
+  iframe {
+    width: 480px;
+    height: 280px;
   }
 
   /*END CONTACTO PAGE*/
