@@ -357,38 +357,61 @@ div#frase {
   color: white;
 }
 
-/*PARALLAX*/
+/*END PARALLAX*/
 
 /***END MAIN PAGE***/
 /***SERVICIOS PAGE***/
+div#services-container {
+  background: url(../images/hero/servicios-lg.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position-y: 45%;
+}
+
+div#services-container {
+  color: #1c9b0c;
+}
 
 /***END SERVICIOS PAGE***/
 /***PORTAFOLIO PAGE***/
+div#portfolio-container {
+  background: url(../images/hero/portafolio-lg.jpg) no-repeat;
+  background-size: 100% auto;
+  background-position-y: 50%;
+}
+
+div#portfolio-container {
+  color: #f9bc50;
+}
 
 /***END PORTAFOLIOS PAGE***/
 
 /***CONTACTO PAGE***/
-#contact-container {
-  height: 600px;
-  background: url(../images/fondo-contacto.jpg) no-repeat;
-  overflow: hidden;
-  position: relative;
+div#contact-container {
+  background: url(../images/hero/contacto-lg.jpg) no-repeat;
   background-size: 100% auto;
   background-position-y: 85%;
-  margin: 0;
-  padding: 0;
-
 }
 
-#contact-container h2 {
+.hero-container {
+  height: 600px;
+  overflow: hidden;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-container h2 {
   font-family: 'Oswald', sans-serif;
   text-transform: uppercase;
   position: absolute;
   font-size: 2.5em;
   font-weight: bold;
-  color: #1c9b0c;
   top: 35%;
   left: 46%;
+}
+
+div#contact-container {
+  color: #1c9b0c;
 }
 
 div.form-container {
@@ -569,12 +592,33 @@ div#map-tile span {
   }
 
   /***END Home Page***/
+  /***SERVICIOS PAGE***/
+  div#services-container {
+    background: url(../images/hero/servicios-md.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 45%;
+  }
+
+  /***END SERVICIOS PAGE***/
+  /***PORTAFOLIO PAGE***/
+  div#portfolio-container {
+    background: url(../images/hero/portafolio-md.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 50%;
+  }
+  /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
-  #contact-container {
+  div#contact-container {
+    background: url(../images/hero/contacto-md.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 85%;
+  }
+
+  .hero-container {
     height: 450px;
   }
 
-  #contact-container h2 {
+  .hero-container h2 {
     font-size: 2em;
   }
 
@@ -622,6 +666,7 @@ div#map-tile span {
     width: 1200px;
     height: 380px;
   }
+
   /*END MAPA*/
   /***END CONTACTO PAGE***/
 
@@ -719,12 +764,33 @@ div#map-tile span {
   }
 
   /* End Home Page */
+  /***SERVICIOS PAGE***/
+  div#services-container {
+    background: url(../images/hero/servicios-sm.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 45%;
+  }
+
+  /***END SERVICIOS PAGE***/
+    /***PORTAFOLIO PAGE***/
+    div#portfolio-container {
+      background: url(../images/hero/portafolio-sm.jpg) no-repeat;
+      background-size: 100% auto;
+      background-position-y: 50%;
+    }
+    /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
-  #contact-container {
+  div#contact-container {
+    background: url(../images/hero/contacto-sm.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 85%;
+  }
+
+  .hero-container {
     height: 350px;
   }
 
-  #contact-container h2 {
+  .hero-container h2 {
     font-size: 1.8em;
   }
 
@@ -773,6 +839,7 @@ div#map-tile span {
     width: 991px;
     height: 330px;
   }
+
   /*END MAPA*/
   /***END CONTACTO PAGE***/
   .panel-footer {
@@ -889,13 +956,34 @@ div#map-tile span {
     font-size: 0.7em;
   }
 
-  /* END HOME PAGE*/
+  /***END HOME PAGE***/
+  /***SERVICIOS PAGE***/
+  div#services-container {
+    background: url(../images/hero/servicios-xs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 45%;
+  }
+
+  /***END SERVICIOS PAGE***/
+    /***PORTAFOLIO PAGE***/
+    div#portfolio-container {
+      background: url(../images/hero/portafolio-xs.jpg) no-repeat;
+      background-size: 100% auto;
+      background-position-y: 50%;
+    }
+    /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
-  #contact-container {
+  div#contact-container {
+    background: url(../images/hero/contacto-xs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 85%;
+  }
+
+  .hero-container {
     height: 300px;
   }
 
-  #contact-container h2 {
+  .hero-container h2 {
     font-size: 1.5em;
     left: 40%;
   }
@@ -1071,12 +1159,34 @@ div#map-tile span {
     font-size: 0.6em;
   }
 
+  /***END HOME PAGE***/
+  /***SERVICIOS PAGE***/
+  div#services-container {
+    background: url(../images/hero/servicios-xxs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 45%;
+  }
+
+  /***END SERVICIOS PAGE***/
+    /***PORTAFOLIO PAGE***/
+    div#portfolio-container {
+      background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
+      background-size: 100% auto;
+      background-position-y: 50%;
+    }
+    /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
-  #contact-container {
+  div#contact-container {
+    background: url(../images/hero/contacto-xxs.jpg) no-repeat;
+    background-size: 100% auto;
+    background-position-y: 85%;
+  }
+
+  .hero-container {
     height: 250px;
   }
 
-  #contact-container h2 {
+  .hero-container h2 {
     font-size: 1.4em;
     left: 38%;
   }
@@ -1126,6 +1236,7 @@ div#map-tile span {
     width: 480px;
     height: 230px;
   }
+
   /*END MAPA*/
   /***END CONTACTO PAGE***/
 
