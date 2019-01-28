@@ -29,7 +29,18 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
       var email = getInputVal('email');
       var phone = getInputVal('phone');
       var message = getInputVal('message');
+      //Save message
       saveMessage(fname, lname, email, phone, message);
+      //Show alert
+      document.querySelector('.alert').style.display = 'block';
+
+      //Hide alert after 3 seconds
+      setTimeout(function(){
+        document.querySelector('.alert').style.display = 'none';
+      }, 3000);
+
+      //clear form
+      document.getElementById('contact-form').reset();
     }
   
     //Function to get form values

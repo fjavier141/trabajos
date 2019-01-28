@@ -542,6 +542,15 @@ div.well-sm {
   border: 2px solid #1c9b0c;
 }
 
+div.alert{
+  text-align: center;
+  color: #1c9b0c;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.4em;
+  font-weight: bold;
+  display: none;
+}
 /*END FORMULARIO*/
 
 /*MAPA*/
@@ -752,6 +761,9 @@ div#map-tile span {
     width: 200px;
     height: 50px;
     margin-top: 18px;
+  }
+  div.alert{
+    font-size: 1.3em;
   }
 
   /*END FORMULARIO*/
@@ -966,7 +978,9 @@ div#map-tile span {
     margin-top: 15px;
     font-size: 0.9em;
   }
-
+  div.alert{
+    font-size: 1.2em;
+  }
   /*END FORMULARIO*/
 
   /*MAPA*/
@@ -1200,7 +1214,9 @@ div#map-tile span {
     margin-top: 5px;
     font-size: 0.9em;
   }
-
+  div.alert{
+    font-size: 1.1em;
+  }
   /*END FORMULARIO*/
 
   /*MAPA*/
@@ -1334,7 +1350,7 @@ div#map-tile span {
     padding: 20px 40px 20px 40px;
     height: 200px;
   }
-  
+
   .celebre h1 {
     font-size: 1.2em;
   }
@@ -1420,6 +1436,9 @@ div#map-tile span {
     font-size: 0.9em;
   }
 
+  div.alert{
+    font-size: 1em;
+  }
   /*END FORMULARIO*/
 
   /*MAPA*/
