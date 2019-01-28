@@ -302,6 +302,18 @@ div#main-content.container-fluid {
   background-color: white;
   overflow: auto;
 }
+#vision, #descripcion, #mision{
+  position: relative;
+}
+/*LOGOS SOLAR Y EOLICO*/
+#logoWind{
+  color: #1c9b0c;
+}
+#logoSolar{
+  color: #f9bc50;
+}
+/*END LOGOS SOLAR Y EOLICO*/
+
 
 #empresa-principal h3 {
   text-align: center;
@@ -309,6 +321,9 @@ div#main-content.container-fluid {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 1.4em;
+}
+#descripcion h3{
+  color: #1c9b0c;
 }
 
 #empresa-principal p {
@@ -339,6 +354,7 @@ div#frase-celebre.parallax::before {
   -webkit-filter: brightness(.8);
   filter: brightness(.8);
 }
+
 div#frase-celebre2.parallax::before {
   background: url(../images/parallax2.jpg);
   content: '';
@@ -395,25 +411,30 @@ div.main-container {
   padding: 20px 115px 20px 115px;
 }
 
-div.main-container h3, div.main-container h4{
+div.main-container h3,
+div.main-container h4 {
   text-align: center;
   color: #333;
   text-transform: uppercase;
-  font-weight: bold; 
+  font-weight: bold;
 }
-div.main-container h3{
+
+div.main-container h3 {
   font-size: 1.4em;
-  
+
 }
-div.main-container h4{
+
+div.main-container h4 {
   font-size: 1.3em;
-  
+
 }
-div.main-container p{
+
+div.main-container p {
   text-align: justify;
   color: #333;
   font-size: 1em
 }
+
 /***END SERVICIOS PAGE***/
 /***PORTAFOLIO PAGE***/
 div#portfolio-container {
@@ -646,18 +667,21 @@ div#map-tile span {
   div.main-container {
     padding: 20px 80px 20px 80px;
   }
- 
-  div.main-container h3{
+
+  div.main-container h3 {
     font-size: 1.3em;
-    
+
   }
-  div.main-container h4{
+
+  div.main-container h4 {
     font-size: 1.2em;
-    
+
   }
-  div.main-container p{
+
+  div.main-container p {
     font-size: 0.9em
   }
+
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
@@ -835,17 +859,21 @@ div#map-tile span {
   div.main-container {
     padding: 15px 50px 15px 50px;
   }
-  div.main-container h3{
+
+  div.main-container h3 {
     font-size: 1.2em;
-    
+
   }
-  div.main-container h4{
+
+  div.main-container h4 {
     font-size: 1.1em;
-    
+
   }
-  div.main-container p{
+
+  div.main-container p {
     font-size: 0.8em
   }
+
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
@@ -1044,17 +1072,21 @@ div#map-tile span {
   div.main-container {
     padding: 5px 30px 5px 30px;
   }
-  div.main-container h3{
+
+  div.main-container h3 {
     font-size: 1.1em;
-    
+
   }
-  div.main-container h4{
+
+  div.main-container h4 {
     font-size: 1em;
-    
+
   }
-  div.main-container p{
+
+  div.main-container p {
     font-size: 0.8em
   }
+
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
@@ -1261,17 +1293,21 @@ div#map-tile span {
   div.main-container {
     padding: 0 15px 0 15px;
   }
-  div.main-container h3{
+
+  div.main-container h3 {
     font-size: 1em;
-    
+
   }
-  div.main-container h4{
+
+  div.main-container h4 {
     font-size: 0.9em;
-    
+
   }
-  div.main-container p{
+
+  div.main-container p {
     font-size: 0.7em
   }
+
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
