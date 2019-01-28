@@ -340,7 +340,7 @@ div.parallax {
 }
 
 div#frase-celebre.parallax::before {
-  background: url(../images/fondo.jpg);
+  background: url(../images/parallax1-lg.jpg);
   content: '';
   width: 100%;
   height: 100%;
@@ -356,7 +356,7 @@ div#frase-celebre.parallax::before {
 }
 
 div#frase-celebre2.parallax::before {
-  background: url(../images/parallax2.jpg);
+  background: url(../images/parallax2-lg.jpg);
   content: '';
   width: 100%;
   height: 100%;
@@ -379,7 +379,7 @@ div.celebre {
   left: 15%;
 }
 
-.celebre h3 {
+.celebre h1 {
   text-align: center;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
@@ -648,7 +648,27 @@ div#map-tile span {
     height: 300px;
   }
 
-  .celebre h3 {
+  div#frase-celebre.parallax::before {
+    background: url(../images/parallax1-md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+  
+  div#frase-celebre2.parallax::before {
+    background: url(../images/parallax2-md.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+
+  .celebre h1 {
     font-size: 1.8em;
   }
 
@@ -840,7 +860,27 @@ div#map-tile span {
     height: 280px;
   }
 
-  .celebre h3 {
+  div#frase-celebre.parallax::before {
+    background: url(../images/parallax1-sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+  
+  div#frase-celebre2.parallax::before {
+    background: url(../images/parallax2-sm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+
+  .celebre h1 {
     font-size: 1.7em;
   }
 
@@ -1053,7 +1093,27 @@ div#map-tile span {
     height: 250px;
   }
 
-  .celebre h3 {
+  div#frase-celebre.parallax::before {
+    background: url(../images/parallax1-xs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+  
+  div#frase-celebre2.parallax::before {
+    background: url(../images/parallax2-xs.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-filter: brightness(.8);
+    filter: brightness(.8);
+  }
+
+  .celebre h1 {
     font-size: 1.4em;
   }
 
@@ -1274,8 +1334,8 @@ div#map-tile span {
     padding: 20px 40px 20px 40px;
     height: 200px;
   }
-
-  .celebre h3 {
+  
+  .celebre h1 {
     font-size: 1.2em;
   }
 
