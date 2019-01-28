@@ -300,18 +300,18 @@ div#main-content.container-fluid {
   padding: 20px 130px 20px 130px;
   height: 350px;
   background-color: white;
-  overflow: auto;
+  overflow: hidden;
 }
-#vision, #descripcion, #mision{
-  position: relative;
-}
+
 /*LOGOS SOLAR Y EOLICO*/
-#logoWind{
+#logoWind {
   color: #1c9b0c;
 }
-#logoSolar{
+
+#logoSolar {
   color: #f9bc50;
 }
+
 /*END LOGOS SOLAR Y EOLICO*/
 
 
@@ -322,7 +322,8 @@ div#main-content.container-fluid {
   font-weight: bold;
   font-size: 1.4em;
 }
-#descripcion h3{
+
+#descripcion h3 {
   color: #1c9b0c;
 }
 
@@ -435,6 +436,21 @@ div.main-container p {
   font-size: 1em
 }
 
+.service-box,
+.about-us {
+  height: 380px;
+  margin-bottom: 20px;
+}
+
+div#fondo-diseno {
+  height: 100%;
+  background: url(../images/diseno.jpg) no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+  overflow: hidden;
+  border: 1px solid #1c9b0c;
+}
+
 /***END SERVICIOS PAGE***/
 /***PORTAFOLIO PAGE***/
 div#portfolio-container {
@@ -508,6 +524,7 @@ div.form-container {
 div.well-sm {
   background-color: white;
   border: 1px solid white;
+  box-shadow: none;
 }
 
 .header {
@@ -542,7 +559,7 @@ div.well-sm {
   border: 2px solid #1c9b0c;
 }
 
-div.alert{
+div.alert {
   text-align: center;
   color: #1c9b0c;
   padding: 10px;
@@ -551,6 +568,7 @@ div.alert{
   font-weight: bold;
   display: none;
 }
+
 /*END FORMULARIO*/
 
 /*MAPA*/
@@ -666,7 +684,7 @@ div#map-tile span {
     -webkit-filter: brightness(.8);
     filter: brightness(.8);
   }
-  
+
   div#frase-celebre2.parallax::before {
     background: url(../images/parallax2-md.jpg);
     background-repeat: no-repeat;
@@ -762,7 +780,8 @@ div#map-tile span {
     height: 50px;
     margin-top: 18px;
   }
-  div.alert{
+
+  div.alert {
     font-size: 1.3em;
   }
 
@@ -881,7 +900,7 @@ div#map-tile span {
     -webkit-filter: brightness(.8);
     filter: brightness(.8);
   }
-  
+
   div#frase-celebre2.parallax::before {
     background: url(../images/parallax2-sm.jpg);
     background-repeat: no-repeat;
@@ -978,9 +997,11 @@ div#map-tile span {
     margin-top: 15px;
     font-size: 0.9em;
   }
-  div.alert{
+
+  div.alert {
     font-size: 1.2em;
   }
+
   /*END FORMULARIO*/
 
   /*MAPA*/
@@ -1116,7 +1137,7 @@ div#map-tile span {
     -webkit-filter: brightness(.8);
     filter: brightness(.8);
   }
-  
+
   div#frase-celebre2.parallax::before {
     background: url(../images/parallax2-xs.jpg);
     background-repeat: no-repeat;
@@ -1145,6 +1166,11 @@ div#map-tile span {
 
   div.main-container {
     padding: 5px 30px 5px 30px;
+  }
+
+  .service-box,
+  .about-us {
+    height: 270px;
   }
 
   div.main-container h3 {
@@ -1214,9 +1240,11 @@ div#map-tile span {
     margin-top: 5px;
     font-size: 0.9em;
   }
-  div.alert{
+
+  div.alert {
     font-size: 1.1em;
   }
+
   /*END FORMULARIO*/
 
   /*MAPA*/
@@ -1436,9 +1464,10 @@ div#map-tile span {
     font-size: 0.9em;
   }
 
-  div.alert{
+  div.alert {
     font-size: 1em;
   }
+
   /*END FORMULARIO*/
 
   /*MAPA*/
