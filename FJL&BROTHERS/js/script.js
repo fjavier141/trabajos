@@ -16,48 +16,5 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   $("#navbarToggle").click(function (event) {
     $(event.target).focus();
   });
-  // Initialize Firebase
-  var config = {
-    apiKey: "AIzaSyDr8o-TWokFZnmiubYBBY2ShAc_ICc1IU8",
-    authDomain: "fjl-and-brothers.firebaseapp.com",
-    databaseURL: "https://fjl-and-brothers.firebaseio.com",
-    projectId: "fjl-and-brothers",
-    storageBucket: "fjl-and-brothers.appspot.com",
-    messagingSenderId: "623266474834"
-  };
-  firebase.initializeApp(config);
-  //Reference messages collection
-  var messagesRef = firebase.database().ref('messages');
 
-  //Listen for form submit
-  document.getElementById('contact-form').addEventListener('submit', submitForm);
-
-  //submit form
-  function submitForm(e) {
-    e.preventDefault(); //Se utiliza para que no cargue otro html al hacer click en submit
-    //Get values
-    var fname = getInputVal('fname');
-    var lname = getInputVal('lname');
-    var email = getInputVal('email');
-    var phone = getInputVal('phone');
-    var message = getInputVal('message');
-    saveMessage(fname, lname, email, phone, message);
-  }
-
-  //Function to get form values
-  function getInputVal(id) {
-    return document.getElementById(id).value;
-  }
-
-  //Save message to firebase
-  function saveMessage(fname, lname, email, phone, message) {
-    var newMessageRef = messageRef.push();
-    newMessageRef.set({
-      fname: fname,
-      lname: lname,
-      email: email,
-      phone: phone,
-      message: message
-    });
-  }
 });
