@@ -457,6 +457,7 @@ div#portfolio-container {
   background: url(../images/hero/portafolio-lg.jpg) no-repeat;
   background-size: 100% auto;
   background-position-y: 50%;
+  color: #f9bc50;
 }
 
 #contenedor-mapaChile{
@@ -471,9 +472,7 @@ h1.tit-portafolio{
   font-weight: bold;
   margin-bottom: 40px;
 }
-div#portfolio-container {
-  color: #f9bc50;
-}
+
 svg {
   height: 1000px;
 }
@@ -488,6 +487,7 @@ svg {
 }
 #CL-AT:hover, #CL-CO:hover, #CL-RM:hover, #CL-VS:hover, #CL-BI:hover{
   fill: #f9bc50;
+  cursor: pointer;
 }
 .container-automatic-box{
   position: relative;
@@ -807,6 +807,53 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
+  #contenedor-mapaChile{
+    padding-top: 30px;
+  }
+  
+  h1.tit-portafolio{
+    font-size: 1.7em;
+    margin-bottom: 30px;
+  }
+  svg {
+    height: 800px;
+  }
+
+  .container-automatic-box{
+    position: relative;
+    height: 800px;
+  }
+  .automatic-box{
+    padding: 15px;
+  }
+  #region-III{
+    top: 15%;
+  }
+  #region-IV{
+    top: 23%;
+  }
+  #region-V{
+    top: 27%;
+  }
+  #region-RM{
+    top: 30%;
+  }
+  #region-VIII{
+    top: 40%;
+  }
+  .automatic-box h3{
+    margin-bottom: 5px;
+    font-size: 1.5em;
+  
+  }
+  .automatic-box p{
+    margin-top: 5px;
+    font-size: 1.3em;
+  }
+  .decoration{
+    width: 120px;
+    height: 3px;
+  }
 
   /***END PORTAFOLIOS PAGE***/
   /***CONTACTO PAGE***/
@@ -1023,7 +1070,53 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
+  #contenedor-mapaChile{
+    padding-top: 20px;
+  }
+  
+  h1.tit-portafolio{
+    font-size: 1.6em;
+    margin-bottom: 20px;
+  }
+  svg {
+    height: 650px;
+  }
 
+  .container-automatic-box{
+    position: relative;
+    height: 650px;
+  }
+  .automatic-box{
+    padding: 15px;
+  }
+  #region-III{
+    top: 12%;
+  }
+  #region-IV{
+    top: 20%;
+  }
+  #region-V{
+    top: 24%;
+  }
+  #region-RM{
+    top: 27%;
+  }
+  #region-VIII{
+    top: 37%;
+  }
+  .automatic-box h3{
+    margin-bottom: 4px;
+    font-size: 1.4em;
+  
+  }
+  .automatic-box p{
+    margin-top: 4px;
+    font-size: 1.2em;
+  }
+  .decoration{
+    width: 100px;
+    height: 3px;
+  }
   /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
@@ -1265,7 +1358,53 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
+  #contenedor-mapaChile{
+    padding-top: 10px;
+  }
+  
+  h1.tit-portafolio{
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  svg {
+    height: 400px;
+  }
 
+  .container-automatic-box{
+    position: relative;
+    height: 400px;
+  }
+  .automatic-box{
+    padding: 15px;
+  }
+  #region-III{
+    top: 10%;
+  }
+  #region-IV{
+    top: 18%;
+  }
+  #region-V{
+    top: 22%;
+  }
+  #region-RM{
+    top: 25%;
+  }
+  #region-VIII{
+    top: 35%;
+  }
+  .automatic-box h3{
+    margin-bottom: 3px;
+    font-size: 1.2em;
+  
+  }
+  .automatic-box p{
+    margin-top: 3px;
+    font-size: 1em;
+  }
+  .decoration{
+    width: 80px;
+    height: 3px;
+  }
   /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
@@ -1488,6 +1627,53 @@ div#map-tile span {
   div#portfolio-container {
     background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
     background-size: cover;
+  }
+  #contenedor-mapaChile{
+    padding-top: 0;
+  }
+  
+  h1.tit-portafolio{
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  svg {
+    height: 330px;
+  }
+
+  .container-automatic-box{
+    position: relative;
+    height: 330px;
+  }
+  .automatic-box{
+    padding: 15px;
+  }
+  #region-III{
+    top: 8%;
+  }
+  #region-IV{
+    top: 16%;
+  }
+  #region-V{
+    top: 20%;
+  }
+  #region-RM{
+    top: 23%;
+  }
+  #region-VIII{
+    top: 33%;
+  }
+  .automatic-box h3{
+    margin-bottom: 3px;
+    font-size: 1em;
+  
+  }
+  .automatic-box p{
+    margin-top: 3px;
+    font-size: 0.9em;
+  }
+  .decoration{
+    width: 60px;
+    height: 2px;
   }
 
   /***END PORTAFOLIOS PAGE***/
