@@ -1637,12 +1637,12 @@ div#map-tile span {
     margin-bottom: 10px;
   }
   svg {
-    height: 330px;
+    height: 340px;
   }
 
   .container-automatic-box{
     position: relative;
-    height: 330px;
+    height: 340px;
   }
   .automatic-box{
     padding: 15px;
