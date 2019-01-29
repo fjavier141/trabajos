@@ -466,7 +466,7 @@ div#portfolio-container {
 
 h1.tit-portafolio{
   text-align: center;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
   font-size: 1.8em;
   font-weight: bold;
@@ -1633,7 +1633,7 @@ div#map-tile span {
   }
   
   h1.tit-portafolio{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin-bottom: 10px;
   }
   svg {
@@ -1664,12 +1664,12 @@ div#map-tile span {
   }
   .automatic-box h3{
     margin-bottom: 3px;
-    font-size: 1em;
+    font-size: 0.9em;
   
   }
   .automatic-box p{
     margin-top: 3px;
-    font-size: 0.9em;
+    font-size: 0.7em;
   }
   .decoration{
     width: 60px;
