@@ -35,15 +35,15 @@ a:hover, a:focus{
   border: 1px solid red;
 }
 #img-fjlbrothers{
-  background: url(../img/fjl.jpg) no-repeat;
+  background: url('../img/fjl.jpg') no-repeat;
   background-size: 100% auto;
 }
 #img-confecciones{
-  background: url(../img/confecciones.jpg) no-repeat;
+  background: url('../img/confecciones.jpg') no-repeat;
   background-size: 100% auto;
 }
 
-@media (min-width: 992px) and  (max-width: 1199px){
+@media (min-width: 992px) and (max-width: 1199px){
   .desarrollos-web{
     padding: 15px 50px 15px 50px;
   }
@@ -54,7 +54,7 @@ a:hover, a:focus{
     border: 1px solid red;
   }
 }
-@media (min-width: 768px) and  (max-width: 991px){
+@media (min-width: 768px) and (max-width: 991px){
   .desarrollos-web{
     padding: 15px 20px 15px 20px;
   }
