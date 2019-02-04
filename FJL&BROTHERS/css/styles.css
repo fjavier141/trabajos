@@ -57,6 +57,9 @@ ul.navbar-nav {
   text-decoration: none;
   color: #f9bc50;
 }
+#ES, #EN:hover{
+  cursor: pointer;
+}
 
 /*MENU BUTTON*/
 button.navbar-toggle {
@@ -482,13 +485,7 @@ svg {
   stroke-width: 1px;
   transition: fill 0.3s;
 }
-#CL-AT, #CL-CO, #CL-RM, #CL-VS, #CL-BI{
-  fill: #ddd;
-}
-#CL-AT:hover, #CL-CO:hover, #CL-RM:hover, #CL-VS:hover, #CL-BI:hover{
-  fill: #f9bc50;
-  cursor: pointer;
-}
+
 .container-automatic-box{
   position: relative;
   height: 1000px;
@@ -500,27 +497,13 @@ svg {
   width: auto;
   padding: 15px;
   color: #333;
+  left: 0;
 }
-#region-III{
-  top: 15%;
-}
-#region-IV{
-  top: 23%;
-}
-#region-V{
-  top: 27%;
-}
-#region-RM{
-  top: 30%;
-}
-#region-VIII{
-  top: 40%;
-}
+
 .automatic-box h3{
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 1.6em;
-
 }
 .automatic-box p{
   margin-top: 5px;
@@ -826,21 +809,7 @@ div#map-tile span {
   .automatic-box{
     padding: 15px;
   }
-  #region-III{
-    top: 15%;
-  }
-  #region-IV{
-    top: 23%;
-  }
-  #region-V{
-    top: 27%;
-  }
-  #region-RM{
-    top: 30%;
-  }
-  #region-VIII{
-    top: 40%;
-  }
+
   .automatic-box h3{
     margin-bottom: 5px;
     font-size: 1.5em;
@@ -1089,21 +1058,7 @@ div#map-tile span {
   .automatic-box{
     padding: 15px;
   }
-  #region-III{
-    top: 12%;
-  }
-  #region-IV{
-    top: 20%;
-  }
-  #region-V{
-    top: 24%;
-  }
-  #region-RM{
-    top: 27%;
-  }
-  #region-VIII{
-    top: 37%;
-  }
+
   .automatic-box h3{
     margin-bottom: 4px;
     font-size: 1.4em;
@@ -1377,33 +1332,19 @@ div#map-tile span {
   .automatic-box{
     padding: 15px;
   }
-  #region-III{
-    top: 10%;
-  }
-  #region-IV{
-    top: 18%;
-  }
-  #region-V{
-    top: 22%;
-  }
-  #region-RM{
-    top: 25%;
-  }
-  #region-VIII{
-    top: 35%;
-  }
+
   .automatic-box h3{
     margin-bottom: 3px;
-    font-size: 1.2em;
+    font-size: 1em;
   
   }
   .automatic-box p{
     margin-top: 3px;
-    font-size: 1em;
+    font-size: 0.9em;
   }
   .decoration{
     width: 80px;
-    height: 3px;
+    height: 2px;
   }
   /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
@@ -1551,7 +1492,7 @@ div#map-tile span {
     text-shadow: 0px 1px 2px #f9bc50;
   }
 
-  .slide P {
+  .slide .upper3 p {
     font-size: 0.8em;
     display: inline-block;
     text-align: center;
@@ -1572,7 +1513,7 @@ div#map-tile span {
 
   div#main-content.container-fluid {
     padding: 0 30px 0 30px;
-    height: 380px;
+    height: 400px;
   }
 
   #empresa-principal h3 {
@@ -1647,24 +1588,10 @@ div#map-tile span {
   .automatic-box{
     padding: 15px;
   }
-  #region-III{
-    top: 8%;
-  }
-  #region-IV{
-    top: 16%;
-  }
-  #region-V{
-    top: 20%;
-  }
-  #region-RM{
-    top: 23%;
-  }
-  #region-VIII{
-    top: 33%;
-  }
+
   .automatic-box h3{
     margin-bottom: 3px;
-    font-size: 0.9em;
+    font-size: 0.8em;
   
   }
   .automatic-box p{

@@ -1,0 +1,22 @@
+[
+    {
+      "contact-container": "Contact"
+    },
+    {
+      "h3": "Contact Us",
+      "Dirección": "Address",
+      "Email": "Email"
+    },
+    {
+      "alert": "Your message has been sent"
+    },
+    {
+      "boton": "Submit"
+    },
+    {
+      "map-tit": "Location"
+    },
+    {
+      "map": "Map"
+    }
+  ]

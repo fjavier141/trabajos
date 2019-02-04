@@ -1,0 +1,32 @@
+[
+  {
+    "servicios-container": "Services"
+  },
+  {
+    "our-services": {
+      "h3": "Our Services",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae adipisci aut veniam voluptate explicabo facilis obcaecati deserunt, inventore nisi provident in minus ullam est, sit quidem qui ipsum sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum inventore accusantium magni, recusandae, explicabo dolorum pariatur, ea beatae velit natus! Enim explicabo magnam dolorem velit, ipsa exipsum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum libero labore incidunt sint ratione itaque alias. Aperiam odio iusto minima neque ipsum rem magni error maxime temporibus dolore. Tempore, molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil nisi debitis? Quis provident obcaecati sint quod porro quas laborum unde similique consequuntur, atque consequatur dignissimos quaeanimi perferendis neque!"
+    },
+    "servicio-1": {
+      "h4": "Project development",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae adipisci aut veniam voluptate explicabo facilis obcaecati deserunt, inventore nisi provident in minus ullam est, sit quidem qui ipsum sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum inventore accusantium magni, recusandae, explicabo dolorum pariatur, ea beatae velit natus! Enim explicabo magnam dolorem velit, ipsa exipsum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum libero labore incidunt sint ratione itaque alias. Aperiam odio iusto minima neque ipsum rem magni error maxime temporibus dolore. Tempore, molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil nisi debitis? Quis providentobcaecati sint quod porro quas laborum unde similique consequuntur, atque consequatur dignissimos quaeanimi perferendis neque!"
+    },
+    "servicio-3": {
+      "h4": "Connection studies",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae adipisci aut veniam voluptate explicabo facilis obcaecati deserunt, inventore nisi provident in minus ullam est, sit quidem qui ipsum sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum inventore accusantium magni, recusandae, explicabo dolorum pariatur, ea beatae velit natus! Enim explicabo magnam dolorem velit, ipsa exipsum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum libero labore incidunt sint ratione itaque alias. Aperiam odio iusto minima neque ipsum rem magni error maxime temporibus dolore. Tempore, molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil nisi debitis? Quis providentobcaecati sint quod porro quas laborum unde similique consequuntur, atque consequatur dignissimos quaeanimi perferendis neque!"
+    },
+    "servicio-4": {
+      "h4": "Economic studies",
+      "p": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos quae adipisci aut veniam voluptate explicabo facilis obcaecati deserunt, inventore nisi provident in minus ullam est, sit quidem qui ipsum sunt! Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum voluptatum inventore accusantium magni, recusandae, explicabo dolorum pariatur, ea beatae velit natus! Enim explicabo magnam dolorem velit, ipsa exipsum hic. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum libero labore incidunt sint ratione itaque alias. Aperiam odio iusto minima neque ipsum rem magni error maxime temporibus dolore. Tempore, molestias. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nihil nisi debitis? Quis providentobcaecati sint quod porro quas laborum unde similique consequuntur, atque consequatur dignissimos quaeanimi perferendis neque!"
+    }
+  },
+  {
+    "frase2": "We make the world a cleaner place"
+  },
+  {
+    "about-us": {
+      "h3": "About Us",
+      "p": "Chilean company founded in 2018 by 3 Electrical Engineers of the University of Chile. We are dedicated to developing renewable generation projects and connection studies to high and medium voltage power grids. We are committed to excellence and decarbonization of the energy matrix."
+    }
+  }
+]

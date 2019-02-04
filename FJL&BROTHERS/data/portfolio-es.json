@@ -1,0 +1,72 @@
+[
+    {
+      "portfolio-container": "Portafolio"
+    },
+    {
+      "contenedor-mapaChile": "Nuestros Proyectos PMGD en Chile"
+    },
+    {
+      "Regiones": [
+        {
+          "name": "Región de Tarapacá",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de Antofagasta",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de Atacama",
+          "projects": "10 projectos en desarrollo"
+        },
+        {
+          "name": "Región de Coquimbo",
+          "projects": "12 projectos en desarrollo"
+        },
+        {
+          "name": "Región de Valparaiso",
+          "projects": "12 projectos en desarrollo"
+        },
+        {
+          "name": "Región del Libertador Bernardo O'Higgins",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región del Maule",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región del Biobío",
+          "projects": "7 projectos en desarrollo"
+        },
+        {
+          "name": "Región de la Araucanía",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de los lagos",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de Aysen",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de Magallanes",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región Metropolitana",
+          "projects": "10 projectos en desarrollo"
+        },
+        {
+          "name": "Región de los Ríos",
+          "projects": "x projectos en desarrollo"
+        },
+        {
+          "name": "Región de Arica y Parinacota",
+          "projects": "x projectos en desarrollo"
+        }
+      ]
+    }
+  ]
