@@ -35,11 +35,11 @@ a:hover, a:focus{
   border: 1px solid red;
 }
 #img-fjlbrothers{
-  background: url(../fjl.jpg) no-repeat;
+  background: url(../img/fjl.jpg) no-repeat;
   background-size: 100% auto;
 }
 #img-confecciones{
-  background: url(../confecciones.jpg) no-repeat;
+  background: url(../img/confecciones.jpg) no-repeat;
   background-size: 100% auto;
 }
 
