@@ -19,7 +19,7 @@ h2{
 a{
   color: #00FF00;
   display: block;
-  width:30%;
+  width:35%;
   margin: 0 auto;
   text-align: center;
 }
@@ -29,8 +29,8 @@ a:hover, a:focus{
   text-shadow: 0 2px 2px #00FF00;
 }
 .imagen{
-  width: 600px;
-  height: 400px;
+  width: 450px;
+  height: 350px;
   margin: 20px auto;
   border: 1px solid red;
 }
@@ -41,4 +41,13 @@ a:hover, a:focus{
 #img-Confecciones{
   background: url(../img/Confecciones.jpg) no-repeat;
   background-size: 100% auto;
+}
+
+@media (min-width: 992px) and  (max-width: 1199px){
+  .imagen{
+    width: 380px;
+    height: 290px;
+    margin: 20px auto;
+    border: 1px solid red;
+  }
 }
