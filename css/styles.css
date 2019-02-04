@@ -1,5 +1,44 @@
 body {
   font-size: 16px;
-  background-color: #fff;
-  font-family: 'Josefin Sans', sans-serif;
+  background-color: #333;
+  font-family: 'Open Sans', sans-serif;
+}
+.Desarrollos-Web{
+  padding: 15px 100px 15px 100px;
+}
+h1{
+  font-family: 'Oswald', sans-serif;;
+  text-align: center;
+  color: white;
+  color: red;
+}
+h2{
+  text-align: center;
+  color: #fff;
+}
+a{
+  color: #00FF00;
+  display: block;
+  width:30%;
+  margin: 0 auto;
+  text-align: center;
+}
+a:hover, a:focus{
+  text-decoration: none;
+  color: #00FF00;
+  text-shadow: 0 2px 2px #00FF00;
+}
+.imagen{
+  width: 600px;
+  height: 400px;
+  margin: 20px auto;
+  border: 1px solid red;
+}
+#img-FJLBROTHERS{
+  background: url(../img/fjl.jpg) no-repeat;
+  background-size: 100% auto;
+}
+#img-Confecciones{
+  background: url(../img/Confecciones.jpg) no-repeat;
+  background-size: 100% auto;
 }
