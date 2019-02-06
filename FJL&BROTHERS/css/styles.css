@@ -57,7 +57,9 @@ ul.navbar-nav {
   text-decoration: none;
   color: #f9bc50;
 }
-#ES, #EN:hover{
+
+#ES,
+#EN:hover {
   cursor: pointer;
 }
 
@@ -439,7 +441,7 @@ div.main-container p {
   font-size: 1em
 }
 
-#our-services{
+#our-services {
   margin-bottom: 30px;
 }
 
@@ -449,7 +451,9 @@ div.main-container p {
   margin-bottom: 20px;
 }
 
-#servicio-1, #servicio-3, #about-usText {
+#servicio-1,
+#servicio-3,
+#about-usText {
   padding-right: 50px;
 }
 
@@ -458,12 +462,16 @@ div.main-container p {
 }
 
 
-#electric-logo, #economic-logo, #negocio-logo{
+#electric-logo,
+#economic-logo,
+#negocio-logo {
   height: 100px;
   position: relative;
 }
 
-.fa-bolt, .fa-briefcase, .fa-code-branch{
+.fa-bolt,
+.fa-briefcase,
+.fa-code-branch {
   font-size: 4em;
   color: #f9bc50;
   display: block;
@@ -472,7 +480,8 @@ div.main-container p {
   left: 45%;
 }
 
-.fa-briefcase, .fa-code-branch{
+.fa-briefcase,
+.fa-code-branch {
   color: #1c9b0c;
 }
 
@@ -495,11 +504,11 @@ div#portfolio-container {
   color: #f9bc50;
 }
 
-#contenedor-mapaChile{
+#contenedor-mapaChile {
   padding-top: 40px;
 }
 
-h1.tit-portafolio{
+h1.tit-portafolio {
   text-align: center;
   font-family: 'Open Sans', sans-serif;
   text-transform: uppercase;
@@ -511,18 +520,20 @@ h1.tit-portafolio{
 svg {
   height: 1000px;
 }
-.map__image path{
+
+.map__image path {
   fill: white;
   stroke: #f9bc50;
   stroke-width: 1px;
   transition: fill 0.3s;
 }
 
-.container-automatic-box{
+.container-automatic-box {
   position: relative;
   height: 1000px;
 }
-.automatic-box{
+
+.automatic-box {
   text-align: left;
   display: none;
   position: absolute;
@@ -532,17 +543,19 @@ svg {
   left: 0;
 }
 
-.automatic-box h3{
+.automatic-box h3 {
   margin-bottom: 5px;
   font-weight: 700;
   font-size: 1.6em;
 }
-.automatic-box p{
+
+.automatic-box p {
   margin-top: 5px;
   font-weight: 500;
   font-size: 1.4em;
 }
-.decoration{
+
+.decoration {
   width: 150px;
   height: 3px;
   background-color: #1c9b0c;
@@ -822,36 +835,41 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
-  #contenedor-mapaChile{
+
+  #contenedor-mapaChile {
     padding-top: 30px;
   }
-  
-  h1.tit-portafolio{
+
+  h1.tit-portafolio {
     font-size: 1.7em;
     margin-bottom: 30px;
   }
+
   svg {
     height: 800px;
   }
 
-  .container-automatic-box{
+  .container-automatic-box {
     position: relative;
     height: 800px;
   }
-  .automatic-box{
+
+  .automatic-box {
     padding: 15px;
   }
 
-  .automatic-box h3{
+  .automatic-box h3 {
     margin-bottom: 5px;
     font-size: 1.5em;
-  
+
   }
-  .automatic-box p{
+
+  .automatic-box p {
     margin-top: 5px;
     font-size: 1.3em;
   }
-  .decoration{
+
+  .decoration {
     width: 120px;
     height: 3px;
   }
@@ -1064,6 +1082,36 @@ div#map-tile span {
     font-size: 0.8em
   }
 
+  #servicio-1,
+  #servicio-3,
+  #about-usText {
+    padding-right: 30px;
+  }
+
+  #servicio-4 {
+    padding-left: 30px;
+  }
+
+
+  #electric-logo,
+  #economic-logo,
+  #negocio-logo {
+    height: 90px;
+    position: relative;
+  }
+
+  .fa-bolt,
+  .fa-briefcase,
+  .fa-code-branch {
+    font-size: 3.5em;
+    top: 20%;
+    left: 45%;
+  }
+
+  div#fondo-diseno {
+    margin-left: 30px;
+  }
+
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
   div#portfolio-container {
@@ -1071,39 +1119,45 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
-  #contenedor-mapaChile{
+
+  #contenedor-mapaChile {
     padding-top: 20px;
   }
-  
-  h1.tit-portafolio{
+
+  h1.tit-portafolio {
     font-size: 1.6em;
     margin-bottom: 20px;
   }
+
   svg {
     height: 650px;
   }
 
-  .container-automatic-box{
+  .container-automatic-box {
     position: relative;
     height: 650px;
   }
-  .automatic-box{
+
+  .automatic-box {
     padding: 15px;
   }
 
-  .automatic-box h3{
+  .automatic-box h3 {
     margin-bottom: 4px;
     font-size: 1.4em;
-  
+
   }
-  .automatic-box p{
+
+  .automatic-box p {
     margin-top: 4px;
     font-size: 1.2em;
   }
-  .decoration{
+
+  .decoration {
     width: 100px;
     height: 3px;
   }
+
   /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
@@ -1324,7 +1378,8 @@ div#map-tile span {
     height: 270px;
   }
 
-  #servicio-1, #servicio-3{
+  #servicio-1,
+  #servicio-3 {
     padding-right: 15px;
   }
 
@@ -1349,39 +1404,45 @@ div#map-tile span {
     background-size: 100% auto;
     background-position-y: 50%;
   }
-  #contenedor-mapaChile{
+
+  #contenedor-mapaChile {
     padding-top: 10px;
   }
-  
-  h1.tit-portafolio{
+
+  h1.tit-portafolio {
     font-size: 1.5em;
     margin-bottom: 10px;
   }
+
   svg {
     height: 400px;
   }
 
-  .container-automatic-box{
+  .container-automatic-box {
     position: relative;
     height: 400px;
   }
-  .automatic-box{
+
+  .automatic-box {
     padding: 15px;
   }
 
-  .automatic-box h3{
+  .automatic-box h3 {
     margin-bottom: 3px;
     font-size: 1em;
-  
+
   }
-  .automatic-box p{
+
+  .automatic-box p {
     margin-top: 3px;
     font-size: 0.9em;
   }
-  .decoration{
+
+  .decoration {
     width: 80px;
     height: 2px;
   }
+
   /***END PORTAFOLIOS PAGE***/
   /*CONTACTO PAGE*/
   div#contact-container {
@@ -1605,36 +1666,41 @@ div#map-tile span {
     background: url(../images/hero/portafolio-xxs.jpg) no-repeat;
     background-size: cover;
   }
-  #contenedor-mapaChile{
+
+  #contenedor-mapaChile {
     padding-top: 0;
   }
-  
-  h1.tit-portafolio{
+
+  h1.tit-portafolio {
     font-size: 1.1em;
     margin-bottom: 10px;
   }
+
   svg {
     height: 350px;
   }
 
-  .container-automatic-box{
+  .container-automatic-box {
     position: relative;
     height: 350px;
   }
-  .automatic-box{
+
+  .automatic-box {
     padding: 15px;
   }
 
-  .automatic-box h3{
+  .automatic-box h3 {
     margin-bottom: 3px;
     font-size: 0.8em;
-  
+
   }
-  .automatic-box p{
+
+  .automatic-box p {
     margin-top: 3px;
     font-size: 0.7em;
   }
-  .decoration{
+
+  .decoration {
     width: 60px;
     height: 2px;
   }
