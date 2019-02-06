@@ -453,6 +453,11 @@ div.main-container p {
   padding-right: 50px;
 }
 
+#servicio-4 {
+  padding-left: 50px;
+}
+
+
 #electric-logo, #economic-logo, #negocio-logo{
   height: 100px;
   position: relative;
@@ -478,6 +483,7 @@ div#fondo-diseno {
   background-position-y: 50%;
   overflow: hidden;
   border: 1px solid #1c9b0c;
+  margin-left: 50px;
 }
 
 /***END SERVICIOS PAGE***/
