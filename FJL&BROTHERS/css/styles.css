@@ -1085,11 +1085,11 @@ div#map-tile span {
   #servicio-1,
   #servicio-3,
   #about-usText {
-    padding-right: 30px;
+    padding-right: 25px;
   }
 
   #servicio-4 {
-    padding-left: 30px;
+    padding-left: 25px;
   }
 
 
@@ -1097,7 +1097,6 @@ div#map-tile span {
   #economic-logo,
   #negocio-logo {
     height: 90px;
-    position: relative;
   }
 
   .fa-bolt,
@@ -1109,7 +1108,7 @@ div#map-tile span {
   }
 
   div#fondo-diseno {
-    margin-left: 30px;
+    margin-left: 25px;
   }
 
   /***END SERVICIOS PAGE***/
@@ -1396,6 +1395,36 @@ div#map-tile span {
   div.main-container p {
     font-size: 0.8em
   }
+
+  #servicio-1,
+  #servicio-3,
+  #about-usText {
+    padding-right: 15px;
+  }
+
+  #servicio-4 {
+    padding-left: 15px;
+  }
+
+
+  #electric-logo,
+  #economic-logo,
+  #negocio-logo {
+    height: 80px;
+  }
+
+  .fa-bolt,
+  .fa-briefcase,
+  .fa-code-branch {
+    font-size: 3em;
+    top: 20%;
+    left: 45%;
+  }
+
+  div#fondo-diseno {
+    margin-left: 15px;
+  }
+
 
   /***END SERVICIOS PAGE***/
   /***PORTAFOLIO PAGE***/
