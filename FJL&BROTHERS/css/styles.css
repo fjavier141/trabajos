@@ -453,18 +453,22 @@ div.main-container p {
   padding-right: 40px;
 }
 
-#electric-logo{
+#electric-logo, #economic-logo, #negocio-logo{
   height: 100px;
   position: relative;
 }
 
-.fa-bolt{
+.fa-bolt, .fa-briefcase, .fa-code-branch{
   font-size: 4em;
   color: #f9bc50;
   display: block;
   position: absolute;
   top: 20%;
   left: 42%;
+}
+
+.fa-bolt{
+  color: #1c9b0c;
 }
 
 div#fondo-diseno {
