@@ -439,10 +439,18 @@ div.main-container p {
   font-size: 1em
 }
 
+#our-services{
+  margin-bottom: 20px;
+}
+
 .service-box,
 .about-us {
   height: 380px;
   margin-bottom: 20px;
+}
+
+.service-box:nth-child(odd){
+  padding-left: 30px;
 }
 
 div#fondo-diseno {
