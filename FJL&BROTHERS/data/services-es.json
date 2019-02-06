@@ -5,7 +5,7 @@
     {
       "our-services": {
         "h3": "Nuestros Servicios",
-        "p": "FJL & BROTHERS se ocupa de fundar las bases de tus proyectos PMGD, partiendo por la búsqueda de terrenos, acuerdos entre partes y tramitación de formularios ante la SEC. El equipo técnico de la compañia se encarga de realizar los estudios técnicos de impacto en las redes. Por otro lado, el equipo comercial se encarga de determinar la viabilidad económica de los proyectos"
+        "p": "FJL & BROTHERS se encarga de fundar las bases de tus proyectos PMGD, partiendo por la búsqueda de terrenos adecuados y finalizando con el acuerdo entre partes y tramitación de formularios ante la SEC. El equipo técnico de la compañia se ocupa de realizar los estudios técnicos de impacto de conexión en las redes. Por otro lado, el equipo comercial se encarga de determinar la viabilidad económica de los proyectos"
       },
       "servicio-1": {
         "h4": "Desarrollo de proyectos",
@@ -13,11 +13,11 @@
       },
       "servicio-3": {
         "h4": "Estudios de conexión",
-        "p": "Cuando los proyectos tienen una potencia mayor a 1 MW es necesario hacer estudios sistémicos para determinar el impacto del proyecto en las redes eléctricas, estos son: Estudio de Impacto Estático; Estudio de Cortocircuito; y Estudio de Coordinación de Protecciones. En FJL & BROTHERS tenemos un equipo técnico que se encarga de estos estudios."
+        "p": "Cuando los proyectos tienen una potencia mayor a 1 MW es necesario hacer estudios sistémicos para determinar el impacto del proyecto en las redes eléctricas, estos son: Estudio de Impacto Estático; Estudio de Cortocircuito; y Estudio de Coordinación de Protecciones. En FJL & BROTHERS disponemos de un equipo técnico especializta en estudios sistémicos."
       },
       "servicio-4": {
         "h4": "Estudios económicos",
-        "p": "El equipo comercial determina la tasa de retorno de los proyectos en base a la predicción de la generación y el precio de la energía."
+        "p": "El equipo comercial determina la tasa de retorno de los proyectos en base a la predicción de la generación y el precio estabilizado de la energía."
       }
     },
     {
@@ -26,7 +26,7 @@
     {
       "about-us": {
         "h3": "Sobre Nosotros",
-        "p": "Compañía chilena fundada en el año 2018 por 3 Ingenieros Eléctricos de la Universidad de Chile. Nos dedicamos a desarrollar proyectos de generación renovable y estudios de conexión a las redes eléctricas de alta y media tensión. Estamos compremetidos con la excelencia y la descarbonización de la matriz energética."
+        "p": "Compañía chilena fundada en el año 2018 por 3 Ingenieros Eléctricos de la Universidad de Chile. Nos dedicamos a desarrollar proyectos de generación renovable y estudios de conexión a las redes eléctricas de alta y media tensión. Estamos compremetidos con la excelencia y hacer del mundo un lugar más limpio."
       }
     }
   ]
