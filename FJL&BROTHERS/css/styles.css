@@ -453,6 +453,20 @@ div.main-container p {
   padding-right: 40px;
 }
 
+#electric-logo{
+  height: 100px;
+  position: relative;
+}
+
+.fa-bolt{
+  font-size: 4em;
+  color: #f9bc50;
+  display: block;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+}
+
 div#fondo-diseno {
   height: 100%;
   background: url(../images/diseno.jpg) no-repeat;
