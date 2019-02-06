@@ -449,8 +449,8 @@ div.main-container p {
   margin-bottom: 20px;
 }
 
-#servicio-1, #servicio-3{
-  padding-right: 40px;
+#servicio-1, #servicio-3, #about-usText {
+  padding-right: 50px;
 }
 
 #electric-logo, #economic-logo, #negocio-logo{
