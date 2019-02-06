@@ -440,7 +440,7 @@ div.main-container p {
 }
 
 #our-services{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .service-box,
@@ -449,8 +449,8 @@ div.main-container p {
   margin-bottom: 20px;
 }
 
-.service-box:nth-child(odd){
-  padding-left: 30px;
+#servicio-1, #servicio-3{
+  padding-right: 40px;
 }
 
 div#fondo-diseno {
@@ -1298,6 +1298,10 @@ div#map-tile span {
   .service-box,
   .about-us {
     height: 270px;
+  }
+
+  #servicio-1, #servicio-3{
+    padding-right: 15px;
   }
 
   div.main-container h3 {
