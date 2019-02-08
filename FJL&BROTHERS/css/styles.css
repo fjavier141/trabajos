@@ -325,7 +325,7 @@ div#main-content.container-fluid {
   color: #333;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 1.4em;
+  font-size: 1.5em;
 }
 
 #descripcion h3 {
@@ -335,7 +335,7 @@ div#main-content.container-fluid {
 #empresa-principal p {
   text-align: justify;
   color: #333;
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 /*PARALLAX*/
