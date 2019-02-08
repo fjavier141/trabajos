@@ -426,19 +426,19 @@ div.main-container h4 {
 }
 
 div.main-container h3 {
-  font-size: 1.4em;
+  font-size: 1.5em;
 
 }
 
 div.main-container h4 {
-  font-size: 1.3em;
+  font-size: 1.4em;
   margin-bottom: 20px;
 }
 
 div.main-container p {
   text-align: justify;
   color: #333;
-  font-size: 1em
+  font-size: 1.1em;
 }
 
 #our-services {
@@ -815,17 +815,17 @@ div#map-tile span {
   }
 
   div.main-container h3 {
-    font-size: 1.3em;
+    font-size: 1.4em;
 
   }
 
   div.main-container h4 {
-    font-size: 1.2em;
+    font-size: 1.3em;
 
   }
 
   div.main-container p {
-    font-size: 0.9em
+    font-size: 1em
   }
 
   /***END SERVICIOS PAGE***/
@@ -1069,17 +1069,17 @@ div#map-tile span {
   }
 
   div.main-container h3 {
-    font-size: 1.2em;
+    font-size: 1.3em;
 
   }
 
   div.main-container h4 {
-    font-size: 1.1em;
+    font-size: 1.2em;
 
   }
 
   div.main-container p {
-    font-size: 0.8em
+    font-size: 0.9em
   }
 
   #servicio-1,
@@ -1383,12 +1383,12 @@ div#map-tile span {
   }
 
   div.main-container h3 {
-    font-size: 1.1em;
+    font-size: 1.2em;
 
   }
 
   div.main-container h4 {
-    font-size: 1em;
+    font-size: 1.1em;
 
   }
 
@@ -1676,17 +1676,17 @@ div#map-tile span {
   }
 
   div.main-container h3 {
-    font-size: 1em;
+    font-size: 1.1em;
 
   }
 
   div.main-container h4 {
-    font-size: 0.9em;
+    font-size: 1em;
 
   }
 
   div.main-container p {
-    font-size: 0.7em
+    font-size: 0.8em
   }
 
   /***END SERVICIOS PAGE***/
