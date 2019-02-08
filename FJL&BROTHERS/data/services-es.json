@@ -5,19 +5,19 @@
     {
       "our-services": {
         "h3": "Nuestros Servicios",
-        "p": "FJL & BROTHERS se encarga de fundar las bases de tus proyectos PMGD, partiendo por la búsqueda de terrenos adecuados y finalizando con el acuerdo entre partes y tramitación de formularios ante la SEC. El equipo técnico de la compañia se ocupa de realizar los estudios de conexión en las redes. Por otro lado, el equipo comercial se encarga de determinar la viabilidad económica de los proyectos"
+        "p": "FJL & BROTHERS se encarga de construir las bases de tus proyectos PMGD. Contamos con un equipo especializado en el sector eléctrico que se encarga de buscar y definir las mejores oportuinidades para tu próximo negocio."
       },
       "servicio-1": {
-        "h4": "Desarrollo de proyectos",
-        "p": "Buscamos el lugar apropiado para desarrollar proyectos de generación renovable, considerando factores geográficos, ambientales, técnicos y económicos. Además, realizamos el proceso de acuerdo entre partes y contrato de arriendo con los dueños de los terrenos. Por último, legalizamos tu proyecto tramitando los distintos formularios ante la SEC."
+        "h4": "Búsqueda de lugares",
+        "p": "Buscamos el lugar apropiado para desarrollar proyectos de generación renovable, considerando factores geográficos, ambientales, técnicos y económicos. Además, desarrollamos el proceso de contratos de arriendos de terrenos."
       },
       "servicio-3": {
-        "h4": "Estudios de conexión",
-        "p": "Cuando los proyectos tienen una potencia mayor a 1 MW es necesario hacer estudios sistémicos para determinar el impacto del proyecto en las redes eléctricas, estos son: estudio de impacto estático; estudio de cortocircuito; y estudio de coordinación de protecciones. En FJL & BROTHERS disponemos de un equipo técnico especialista en estudios sistémicos."
+        "h4": "Proceso de conexión",
+        "p": "Desarrollamos el proceso de conexión para tus proyectos PMGD ante la autoridad."
       },
       "servicio-4": {
-        "h4": "Estudios económicos",
-        "p": "El equipo comercial determina la viabilidad económica de los proyectos en base a la predicción de la generación y el precio de la energía. Además, hacemos consultoría sobre estrategias de negocio."
+        "h4": "Estudios de conexión",
+        "p": "Cuando los proyectos tienen una potencia mayor a 1 MW es necesario hacer estudios sistémicos para determinar el impacto del proyecto en las redes eléctricas. En FJL & BROTHERS disponemos de un equipo técnico especialista en estudios de este tipo."
       }
     },
     {
