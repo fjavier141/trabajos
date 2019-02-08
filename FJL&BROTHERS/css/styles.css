@@ -447,7 +447,7 @@ div.main-container p {
 
 .service-box,
 .about-us {
-  height: 380px;
+  height: 350px;
   margin-bottom: 20px;
 }
 
@@ -1374,7 +1374,7 @@ div#map-tile span {
 
   .service-box,
   .about-us {
-    height: 270px;
+    height: 250px;
   }
 
   #servicio-1,
