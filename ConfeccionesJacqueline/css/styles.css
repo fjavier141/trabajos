@@ -1,0 +1,545 @@
+body {
+  font-size: 16px;
+  background-color: #fff;
+  font-family: 'Josefin Sans', sans-serif;
+}
+/** HEADER **/
+#logo {
+  width: 140px;
+  margin-left: 100px;
+}
+#company-name {
+  text-align: center;
+  height: 100%;
+}
+#company-name a:hover,
+#company-name a:focus {
+  text-decoration: none;
+}
+#company-name h1 {
+  font-family: 'Oswald', sans-serif;
+  color: #000;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  line-height: 0.9;
+}
+#company-name p {
+  color: #000;
+  margin-top: 15px;
+  text-transform: lowercase;
+  line-height: 1;
+}
+#collapsable-nav {
+  background-color: crimson;
+  border: 1px solid crimson;
+}
+#navbarNavDropdown {
+  margin-left: 18vw;
+  margin-top: 14px;
+}
+#collapsable-nav ul {
+  margin-top: 0;
+}
+#collapsable-nav ul li {
+  list-style: none;
+}
+#collapsable-nav ul li a {
+  font-size: 1em;
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: lowercase;
+  margin-right: 2vw;
+  color: white;
+  text-align: center;
+}
+#collapsable-nav ul a:hover,
+#collapsable-nav ul a:focus {
+  text-shadow: 1px 1px 2px #042EC6;
+  text-decoration: none;
+  color: #042EC6;
+}
+.form-control {
+  margin-left: 7vw;
+  font-size: 12px;
+  width: 40vw;
+  padding: 0;
+  height: 25px;
+}
+#boton {
+  padding: 4px;
+  height: 25px;
+  font-size: 0.8em;
+  text-transform: lowercase;
+  font-family: 'Josefin Sans', sans-serif;
+  background-color: #042EC6;
+  color: white;
+}
+/*Button*/
+button.navbar-toggle {
+  background-color: crimson;
+  border: 1.8px solid white;
+  border-radius: 3px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: 8vw;
+}
+.icon-bar {
+  background-color: white;
+  border: 1.6px solid white;
+}
+.dropdown-menu{
+  width: 15vw;
+  background-color: crimson;
+  border: none;
+}
+div.dropdown-menu a.dropdown-item{
+  display: inline-block;
+  width: 100%;
+  margin: 0 auto;
+}
+/*End Button*/
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 115px;
+  padding-left: 115px;
+  border-top: 0;
+  color: white;
+  background-color: crimson;
+  width: 100%;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+#footer_acerca,
+#footer_contacto,
+#footer_redes {
+  line-height: 2;
+  margin-bottom: 0;
+  text-align: center;
+}
+#footer_acerca>span,
+#footer_contacto>span,
+#footer_redes>span {
+  font-size: 1.8em;
+  text-transform: lowercase;
+  font-weight: bold;
+}
+#footer_acerca>p {
+  text-align: justify;
+}
+/* END FOOTER */
+
+/*MAIN PAGE*/
+.jumbotron {
+  background: url('../images/vestidos/Confección_Vestuario_Tipico.jpg') no-repeat;
+  background-size: cover;
+  background-position-y: center;
+}
+#home-tiles {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+#vestidos-tile,
+#bordados-tile,
+#disfraces-tile,
+#otros-tile,
+#map-tile {
+  height: 430px;
+  width: 100%;
+  margin-bottom: 50px;
+  position: relative;
+  overflow: hidden;
+}
+#vestidos-tile:hover,
+#bordados-tile:hover,
+#disfraces-tile:hover,
+#otros-tile:hover,
+#map-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+#vestidos-tile {
+  background: url('../images/vestidos/Falsos.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#bordados-tile {
+  background: url('../images/vestidos/pañuelo-con-carretita-y-vaca.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#disfraces-tile {
+  background: url('../images/vestidos/Disfraz_navidad.jpg') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#otros-tile {
+  background: url('../images/vestidos/cojin_terapeutico.png') no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+#vestidos-tile span,
+#bordados-tile span,
+#disfraces-tile span,
+#otros-tile span,
+#map-tile span {
+  font-family: 'Josefin Sans', sans-serif;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: lowercase;
+  background-color: #042EC6;
+  color: #fff;
+  opacity: .8;
+  visibility: visible;
+}
+/*END MAIN PAGE*/
+
+/*NOSOTROS PAGE*/
+#nosotros-tiles{
+  margin-left: 100px;
+  margin-right: 100px;
+}
+#nosotros-texto{
+  padding-right: 50px;
+  background: url('../images/otras/confeccion.png') no-repeat;
+  background-size: contain;
+  background-position-y: center;  
+  height: 600px;
+}
+#fondo-nosotros{
+  background: url('../images/otras/taller.jpg') no-repeat;
+  background-size: cover;
+  background-position-y: center;  
+  height: 600px;
+}
+div #nosotros-texto h2{
+  text-align: center;
+  text-transform: lowercase;
+}
+div #nosotros-texto p{
+  text-align: justify;
+}
+/*NOSOTROS END PAGE*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container-fluid .jumbotron {
+    margin-right: 115px;
+    margin-left: 115px;
+    height: 600px;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  #logo {
+    width: 140px;
+    margin-left: 65px;
+  }
+  #collapsable-nav ul li a {
+    margin-right: 2vw;
+    text-align: center;
+  }
+  #navbarNavDropdown {
+    margin-left: 10vw;
+  }
+  .form-control {
+    margin-left: 3vw;
+  }
+  /* Home Page */
+  .container-fluid .jumbotron {
+    margin-right: 80px;
+    margin-left: 80px;
+    height: 550px;
+  }
+  #vestidos-tile,
+  #bordados-tile,
+  #disfraces-tile,
+  #otros-tile,
+  #map-tile {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  #home-tiles {
+    margin-right: 65px;
+    margin-left: 65px;
+  }
+  .panel-footer {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  #logo {
+    width: 140px;
+    margin-left: 35px;
+  }
+  #collapsable-nav ul li a {
+    margin-right: 1.9vw;
+    font-size: 0.9em;
+  }
+  #navbarNavDropdown {
+    margin-left: 4vw;
+    padding-left: 0;
+  }
+  .form-control {
+    margin-left: 0vw;
+  }
+  /* Home Page */
+  .container-fluid .jumbotron {
+    height: 400px;
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  /* End Home Page */
+  #vestidos-tile,
+  #bordados-tile,
+  #disfraces-tile,
+  #otros-tile,
+  #map-tile {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #home-tiles {
+    margin-right: 35px;
+    margin-left: 35px;
+  }
+  .panel-footer {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+  #footer_redes .iconos {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #collapsable-nav ul li a {
+    margin-right: 15px;
+    font-size: 1em;
+  }
+  #collapsable-nav ul li {
+    margin-bottom: 15px;
+  }
+
+  #collapsable-nav a {
+    /* Collapsed nav menu text */
+    font-size: 5em;
+  }
+
+  #collapsable-nav a span {
+    /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #navbarNavDropdown ul{
+    padding-left: 0px;
+  }
+  .form-control{
+    margin-left: 0px;
+    margin-bottom: 10px;
+  }
+  .boton{
+    margin-bottom: 5px;
+  }
+  #call-btn>a {
+    font-size: 1.4em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #fff;
+    color: black;
+    font-weight: bold;
+    font-style: 'Oswald', sans-serif;
+  }
+  /* End Header */
+
+  /* Footer */
+  .panel-footer {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  #footer_redes .iconos {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  /* End Footer */
+
+  /* Home Page */
+  .container-fluid .jumbotron {
+    height: 320px;
+    margin-right: 20px;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+  #vestidos-tile,
+  #bordados-tile,
+  #disfraces-tile,
+  #otros-tile,
+  #map-tile {
+    height: 300px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  #home-tiles {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+  /* Home page */
+  .container-fluid .jumbotron {
+    height: 250px;
+    margin-right: 15px;
+    margin-left: 15px;
+    overflow: hidden;
+  }
+  #home-tiles {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+  #vestidos-tile,
+  #bordados-tile,
+  #disfraces-tile,
+  #otros-tile,
+  #map-tile {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #home-tiles {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+  .panel-footer {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  #footer_acerca,
+  #footer_contacto,
+  #footer_redes {
+    font-size: 0.9em;
+  }
+
+  #footer_acerca>span,
+  #footer_contacto>span,
+  #footer_redes>span {
+    font-size: 2em;
+  }
+  .text-center {
+    font-size: 0.9em;
+  }
+}
+
+/*=========================
+  Icons
+ ================= */
+
+/* footer social icons */
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+/* footer social icons */
+.iconos {
+  margin-top: 35px;
+}
+.social-network a.icoInstagram:hover {
+  background-color: lightcoral;
+}
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+.social-network a.icoTwitter:hover {
+  background-color: #33ccff;
+}
+.social-network a.icoGoogle:hover {
+  background-color: #BD3518;
+}
+.social-network a.icoVimeo:hover {
+  background-color: #0590B8;
+}
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+.social-network a.icoInstagram:hover i,
+.social-network a.icoFacebook:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGoogle:hover i,
+.social-network a.icoVimeo:hover i,
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  background-color: #D3D3D3;
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 50px;
+  text-align: center;
+}
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+.social-circle i {
+  color: #fff;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}

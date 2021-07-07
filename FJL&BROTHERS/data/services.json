@@ -1,0 +1,32 @@
+[
+  {
+    "servicios-container": "Services"
+  },
+  {
+    "our-services": {
+      "h3": "Our Services",
+      "p": "FJL & BROTHERS is responsible for building the foundations of your PMGD projects. We have a specialized team in the electrical sector that is responsible for finding and defining the best opportunities for your next business. We determine the energy injection projections, carry out the systemic studies and develop the PMGD connection process."
+    },
+    "servicio-1": {
+      "h4": "Seek of places",
+      "p": "We seek the appropriate place to develop renewable generation projects, considering geographical, environmental, technical and economic factors. In addition, we developed the land lease contract process."
+    },
+    "servicio-3": {
+      "h4": "Connection process",
+      "p": "We develop the connection process for your projects, through the different forms required by electrical regulations."
+    },
+    "servicio-4": {
+      "h4": "Connection studies",
+      "p": "When the projects have a power greater than 1 MW, it's necessary to carry out systemic studies to determine the impact of the project on electrical grids. FJL & BROTHERS has a technical team specialized in this kind of studies."
+    }
+  },
+  {
+    "frase2": "We make the world a cleaner place"
+  },
+  {
+    "about-us": {
+      "h3": "About Us",
+      "p": "Chilean company founded in 2018 by 3 Electrical Engineers of the University of Chile. We are dedicated to developing renewable generation projects and connection studies to high and medium voltage power grids. We are committed to excellence and decarbonization of the energy matrix."
+    }
+  }
+]

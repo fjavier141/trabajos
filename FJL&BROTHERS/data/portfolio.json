@@ -1,0 +1,72 @@
+[
+    {
+      "portfolio-container": "Portfolio"
+    },
+    {
+      "contenedor-mapaChile": "Our PMGD Projects in Chile"
+    },
+    {
+      "Regiones": [
+        {
+          "name": "Tarapacá Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Antofagasta Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Atacama Region",
+          "projects": "10 projects in development"
+        },
+        {
+          "name": "Coquimbo Region",
+          "projects": "12 projects in development"
+        },
+        {
+          "name": "Valparaiso Region",
+          "projects": "12 projects in development"
+        },
+        {
+          "name": "Libertador Bernardo O'Higgins Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Maule Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Biobío Region",
+          "projects": "7 projects in development"
+        },
+        {
+          "name": "La Araucanía Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Los Lagos Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Aysen Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Magallanes Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Metropolitan Region",
+          "projects": "10 projects in development"
+        },
+        {
+          "name": "Los Ríos Region",
+          "projects": "x projects in development"
+        },
+        {
+          "name": "Arica and Parinacota Region",
+          "projects": "x projects in development"
+        }
+      ]
+    }
+  ]
